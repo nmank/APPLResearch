@@ -1,0 +1,944 @@
+\documentclass[12pt]{article} 
+\usepackage{amsfonts} 
+\begin{document} 
+                            "LogLogisticRV(1, 2)"
+
+$$[x\mapsto 2\,{\frac {x}{ \left( {x}^{2}+1 \right) ^{2}}}]
+$$-------------------------------------------------------------------------------------------  \\$$t\mapsto {t}^{2}
+$$Probability Distribution Function 
+$$  f(x)= \left( x+1 \right) ^{-2}
+$$Cumulative Distribution Function  
+ $$F(x)={\frac {x}{x+1}}
+$$ Inverse Cumulative Distribution Function 
+  $$F^{-1} = [s\mapsto -{\frac {s}{-1+s}}]
+$$Survivor Function 
+ $$ S(x)= \left( x+1 \right) ^{-1}
+$$ Hazard Function 
+ $$ h(x)= \left( x+1 \right) ^{-1}
+$$Mean 
+ $$ mu=\infty 
+$$ Variance 
+ $$ sigma^2 = {\it undefined}
+$$Moment Function 
+ $$ m(x) = \pi\,\csc \left( \pi\,r \right) r
+$$ Moment Generating Function 
+ $$\lim _{x\rightarrow \infty }-{\frac {{\it Ei} \left( 1,-tx-t \right) t
+x{{\rm e}^{-t}}-{\it Ei} \left( 1,-t \right) tx{{\rm e}^{-t}}+{\it Ei}
+ \left( 1,-tx-t \right) t{{\rm e}^{-t}}-{{\rm e}^{-t}}{\it Ei} \left( 
+1,-t \right) t+{{\rm e}^{tx}}-x-1}{x+1}}_{{1}}
+$$-------------------------------------------------------------------------------------------  \\$$t\mapsto \sqrt {t}
+$$Probability Distribution Function 
+$$  f(x)=4\,{\frac {{x}^{3}}{ \left( {x}^{4}+1 \right) ^{2}}}
+$$Cumulative Distribution Function  
+ $$F(x)={\frac {{x}^{4}}{{x}^{4}+1}}
+$$ Inverse Cumulative Distribution Function 
+
+$$ [s\mapsto -{\frac {\sqrt {- \left( s-1 \right) \sqrt {- \left( s-1
+ \right) s}}}{s-1}}]
+$$Survivor Function 
+ $$ S(x)= \left( {x}^{4}+1 \right) ^{-1}
+$$ Hazard Function 
+ $$ h(x)=4\,{\frac {{x}^{3}}{{x}^{4}+1}}
+$$Mean 
+ $$ mu=1/4\,\pi\,\sqrt {2}
+$$ Variance 
+ $$ sigma^2 = \pi/2-1/8\,{\pi}^{2}
+$$Moment Function 
+ $$ m(x) = 1/4\,\pi\,\csc \left( 1/4\,\pi\,r \right) r
+$$ Moment Generating Function 
+ $$\lim _{x\rightarrow \infty }-1/8\,{\frac {-8+i{{\rm e}^{ \left( -1/2-i
+/2 \right) \sqrt {2}t}}{\it Ei} \left( 1,-tx-1/2\,\sqrt {2}t-i/2t
+\sqrt {2} \right) \sqrt {2}t+i{{\rm e}^{ \left( 1/2-i/2 \right) \sqrt 
+{2}t}}{\it Ei} \left( 1,-tx+1/2\,\sqrt {2}t-i/2t\sqrt {2} \right) 
+\sqrt {2}t-{{\rm e}^{ \left( 1/2+i/2 \right) \sqrt {2}t}}{\it Ei}
+ \left( 1,-tx+1/2\,\sqrt {2}t+i/2t\sqrt {2} \right) \sqrt {2}t{x}^{4}+
+{{\rm e}^{ \left( -1/2+i/2 \right) \sqrt {2}t}}{\it Ei} \left( 1,-tx-1
+/2\,\sqrt {2}t+i/2t\sqrt {2} \right) \sqrt {2}t{x}^{4}+{{\rm e}^{
+ \left( -1/2-i/2 \right) \sqrt {2}t}}{\it Ei} \left( 1,-tx-1/2\,\sqrt 
+{2}t-i/2t\sqrt {2} \right) \sqrt {2}t{x}^{4}-{{\rm e}^{ \left( 1/2-i/2
+ \right) \sqrt {2}t}}{\it Ei} \left( 1,-tx+1/2\,\sqrt {2}t-i/2t\sqrt {
+2} \right) \sqrt {2}t{x}^{4}-{{\rm e}^{ \left( -1/2-i/2 \right) \sqrt 
+{2}t}}{\it Ei} \left( 1,-1/2\,\sqrt {2}t-i/2t\sqrt {2} \right) \sqrt {
+2}t+{{\rm e}^{ \left( 1/2-i/2 \right) \sqrt {2}t}}{\it Ei} \left( 1,1/
+2\,\sqrt {2}t-i/2t\sqrt {2} \right) \sqrt {2}t+{{\rm e}^{ \left( 1/2+i
+/2 \right) \sqrt {2}t}}{\it Ei} \left( 1,1/2\,\sqrt {2}t+i/2t\sqrt {2}
+ \right) \sqrt {2}t-{{\rm e}^{ \left( -1/2+i/2 \right) \sqrt {2}t}}{
+\it Ei} \left( 1,-1/2\,\sqrt {2}t+i/2t\sqrt {2} \right) \sqrt {2}t-{
+{\rm e}^{ \left( 1/2+i/2 \right) \sqrt {2}t}}{\it Ei} \left( 1,-tx+1/2
+\,\sqrt {2}t+i/2t\sqrt {2} \right) \sqrt {2}t+{{\rm e}^{ \left( -1/2+i
+/2 \right) \sqrt {2}t}}{\it Ei} \left( 1,-tx-1/2\,\sqrt {2}t+i/2t
+\sqrt {2} \right) \sqrt {2}t+{{\rm e}^{ \left( -1/2-i/2 \right) \sqrt 
+{2}t}}{\it Ei} \left( 1,-tx-1/2\,\sqrt {2}t-i/2t\sqrt {2} \right) 
+\sqrt {2}t-{{\rm e}^{ \left( 1/2-i/2 \right) \sqrt {2}t}}{\it Ei}
+ \left( 1,-tx+1/2\,\sqrt {2}t-i/2t\sqrt {2} \right) \sqrt {2}t-i{
+{\rm e}^{ \left( 1/2-i/2 \right) \sqrt {2}t}}{\it Ei} \left( 1,1/2\,
+\sqrt {2}t-i/2t\sqrt {2} \right) \sqrt {2}t+i{{\rm e}^{ \left( 1/2+i/2
+ \right) \sqrt {2}t}}{\it Ei} \left( 1,1/2\,\sqrt {2}t+i/2t\sqrt {2}
+ \right) \sqrt {2}t+i{{\rm e}^{ \left( -1/2+i/2 \right) \sqrt {2}t}}{
+\it Ei} \left( 1,-1/2\,\sqrt {2}t+i/2t\sqrt {2} \right) \sqrt {2}t-i{
+{\rm e}^{ \left( -1/2-i/2 \right) \sqrt {2}t}}{\it Ei} \left( 1,-1/2\,
+\sqrt {2}t-i/2t\sqrt {2} \right) \sqrt {2}t+{{\rm e}^{ \left( 1/2-i/2
+ \right) \sqrt {2}t}}{\it Ei} \left( 1,1/2\,\sqrt {2}t-i/2t\sqrt {2}
+ \right) \sqrt {2}t{x}^{4}+{{\rm e}^{ \left( 1/2+i/2 \right) \sqrt {2}
+t}}{\it Ei} \left( 1,1/2\,\sqrt {2}t+i/2t\sqrt {2} \right) \sqrt {2}t{
+x}^{4}-{{\rm e}^{ \left( -1/2+i/2 \right) \sqrt {2}t}}{\it Ei} \left( 
+1,-1/2\,\sqrt {2}t+i/2t\sqrt {2} \right) \sqrt {2}t{x}^{4}-{{\rm e}^{
+ \left( -1/2-i/2 \right) \sqrt {2}t}}{\it Ei} \left( 1,-1/2\,\sqrt {2}
+t-i/2t\sqrt {2} \right) \sqrt {2}t{x}^{4}-i{{\rm e}^{ \left( 1/2+i/2
+ \right) \sqrt {2}t}}{\it Ei} \left( 1,-tx+1/2\,\sqrt {2}t+i/2t\sqrt {
+2} \right) \sqrt {2}t-i{{\rm e}^{ \left( -1/2+i/2 \right) \sqrt {2}t}}
+{\it Ei} \left( 1,-tx-1/2\,\sqrt {2}t+i/2t\sqrt {2} \right) \sqrt {2}t
++8\,{{\rm e}^{tx}}-8\,{x}^{4}-i{{\rm e}^{ \left( 1/2-i/2 \right) 
+\sqrt {2}t}}{\it Ei} \left( 1,1/2\,\sqrt {2}t-i/2t\sqrt {2} \right) 
+\sqrt {2}t{x}^{4}-i{{\rm e}^{ \left( -1/2-i/2 \right) \sqrt {2}t}}{
+\it Ei} \left( 1,-1/2\,\sqrt {2}t-i/2t\sqrt {2} \right) \sqrt {2}t{x}^
+{4}+i{{\rm e}^{ \left( 1/2+i/2 \right) \sqrt {2}t}}{\it Ei} \left( 1,1
+/2\,\sqrt {2}t+i/2t\sqrt {2} \right) \sqrt {2}t{x}^{4}+i{{\rm e}^{
+ \left( -1/2+i/2 \right) \sqrt {2}t}}{\it Ei} \left( 1,-1/2\,\sqrt {2}
+t+i/2t\sqrt {2} \right) \sqrt {2}t{x}^{4}-i{{\rm e}^{ \left( 1/2+i/2
+ \right) \sqrt {2}t}}{\it Ei} \left( 1,-tx+1/2\,\sqrt {2}t+i/2t\sqrt {
+2} \right) \sqrt {2}t{x}^{4}-i{{\rm e}^{ \left( -1/2+i/2 \right) 
+\sqrt {2}t}}{\it Ei} \left( 1,-tx-1/2\,\sqrt {2}t+i/2t\sqrt {2}
+ \right) \sqrt {2}t{x}^{4}+i{{\rm e}^{ \left( -1/2-i/2 \right) \sqrt {
+2}t}}{\it Ei} \left( 1,-tx-1/2\,\sqrt {2}t-i/2t\sqrt {2} \right) 
+\sqrt {2}t{x}^{4}+i{{\rm e}^{ \left( 1/2-i/2 \right) \sqrt {2}t}}{\it 
+Ei} \left( 1,-tx+1/2\,\sqrt {2}t-i/2t\sqrt {2} \right) \sqrt {2}t{x}^{
+4}}{{x}^{4}+1}}_{{1}}
+$$-------------------------------------------------------------------------------------------  \\$$t\mapsto {t}^{-1}
+$$Probability Distribution Function 
+$$  f(x)=2\,{\frac {x}{ \left( {x}^{2}+1 \right) ^{2}}}
+$$Cumulative Distribution Function  
+ $$F(x)={\frac {{x}^{2}}{{x}^{2}+1}}
+$$ Inverse Cumulative Distribution Function 
+
+$$[s\mapsto -{\frac {\sqrt {- \left( s-1 \right) s}}{s-1}}]
+$$Survivor Function 
+ $$ S(x)= \left( {x}^{2}+1 \right) ^{-1}
+$$ Hazard Function 
+ $$ h(x)=2\,{\frac {x}{{x}^{2}+1}}
+$$Mean 
+ $$ mu=\pi/2
+$$ Variance 
+ $$ sigma^2 = \infty 
+$$Moment Function 
+ $$ m(x) = 1/2\,\pi\,\csc \left( 1/2\,\pi\,r \right) r
+$$ Moment Generating Function 
+ $$\lim _{x\rightarrow \infty }1/2\,{\frac {-{{\rm e}^{it}}{\it csgn}
+ \left( t \right) \pi\,t{x}^{2}+2\,{{\rm e}^{it}}{\it Si} \left( t
+ \right) t{x}^{2}+i{{\rm e}^{it}}{\it Ei} \left( 1,-tx+it \right) t{x}
+^{2}-{{\rm e}^{it}}{\it csgn} \left( t \right) \pi\,t-i{{\rm e}^{it}}{
+\it Ei} \left( 1,-it \right) t{x}^{2}-i{{\rm e}^{-it}}{\it Ei} \left( 
+1,-tx-it \right) t{x}^{2}+2\,{{\rm e}^{it}}{\it Si} \left( t \right) t
++i{{\rm e}^{-it}}{\it Ei} \left( 1,-it \right) t{x}^{2}+i{{\rm e}^{it}
+}{\it Ei} \left( 1,-tx+it \right) t-i{{\rm e}^{it}}{\it Ei} \left( 1,-
+it \right) t-i{{\rm e}^{-it}}{\it Ei} \left( 1,-tx-it \right) t+it{
+{\rm e}^{-it}}{\it Ei} \left( 1,-it \right) +2\,{x}^{2}-2\,{{\rm e}^{t
+x}}+2}{{x}^{2}+1}}_{{1}}
+$$-------------------------------------------------------------------------------------------  \\$$t\mapsto \arctan \left( t \right) 
+$$Probability Distribution Function 
+$$  f(x)=2\,\sin \left( x \right) \cos \left( x \right) 
+$$Cumulative Distribution Function  
+ $$F(x)= \left( \sin \left( x \right)  \right) ^{2}
+$$ Inverse Cumulative Distribution Function 
+  $$F^{-1} = [s\mapsto \arcsin \left( \sqrt {s} \right) ]
+$$Survivor Function 
+ $$ S(x)= \left( \cos \left( x \right)  \right) ^{2}
+$$ Hazard Function 
+ $$ h(x)=2\,{\frac {\sin \left( x \right) }{\cos \left( x \right) }}
+$$Mean 
+ $$ mu=\pi/4
+$$ Variance 
+ $$ sigma^2 = 1/16\,{\pi}^{2}-1/2
+$$Moment Function 
+ $$ m(x) = 3\,{\frac {{2}^{-2-r}\sqrt {\pi} \left( 4/3+2/3\,r \right) {\it 
+LommelS1} \left( r+1/2,1/2,\pi \right) }{2+r}}
+$$ Moment Generating Function 
+ $$2\,{\frac {1+{{\rm e}^{1/2\,\pi\,t}}}{{t}^{2}+4}}_{{1}}
+$$-------------------------------------------------------------------------------------------  \\$$t\mapsto {{\rm e}^{t}}
+$$Probability Distribution Function 
+$$  f(x)=2\,{\frac {\ln  \left( x \right) }{ \left(  \left( \ln  \left( x
+ \right)  \right) ^{2}+1 \right) ^{2}x}}
+$$Cumulative Distribution Function  
+ $$F(x)={\frac { \left( \ln  \left( x \right)  \right) ^{2}}{ \left( \ln 
+ \left( x \right)  \right) ^{2}+1}}
+$$ Inverse Cumulative Distribution Function
+
+$$[s\mapsto {{\rm e}^{-{\frac {\sqrt {- \left( s-1 \right) s}}{s-1}}}}]
+$$Survivor Function 
+ $$ S(x)= \left(  \left( \ln  \left( x \right)  \right) ^{2}+1 \right) ^{-1}
+$$ Hazard Function 
+ $$ h(x)=2\,{\frac {\ln  \left( x \right) }{ \left(  \left( \ln  \left( x
+ \right)  \right) ^{2}+1 \right) x}}
+$$Mean 
+ $$ mu=\infty 
+$$ Variance 
+ $$ sigma^2 = {\it undefined}
+$$Moment Function 
+ $$ m(x) = \infty 
+$$ Moment Generating Function 
+ $$\int_{1}^{\infty }\!2\,{\frac {{{\rm e}^{tx}}\ln  \left( x \right) }{
+ \left(  \left( \ln  \left( x \right)  \right) ^{2}+1 \right) ^{2}x}}
+\,{\rm d}x_{{1}}
+$$-------------------------------------------------------------------------------------------  \\$$t\mapsto \ln  \left( t \right) 
+$$Probability Distribution Function 
+$$  f(x)=2\,{\frac {{{\rm e}^{2\,x}}}{ \left( {{\rm e}^{2\,x}}+1 \right) ^{2}}}
+$$Cumulative Distribution Function  
+ $$F(x)={\frac {{{\rm e}^{2\,x}}}{{{\rm e}^{2\,x}}+1}}
+$$ Inverse Cumulative Distribution Function 
+  $$F^{-1} = [s\mapsto 1/2\,\ln  \left( -{\frac {s}{-1+s}} \right) ]
+$$Survivor Function 
+ $$ S(x)= \left( {{\rm e}^{2\,x}}+1 \right) ^{-1}
+$$ Hazard Function 
+ $$ h(x)=2\,{\frac {{{\rm e}^{2\,x}}}{{{\rm e}^{2\,x}}+1}}
+$$Mean 
+ $$ mu=0
+$$ Variance 
+ $$ sigma^2 = 1/12\,{\pi}^{2}
+$$Moment Function 
+ $$ m(x) = \int_{-\infty }^{\infty }\!2\,{\frac {{x}^{r}{{\rm e}^{2\,x}}}{
+ \left( {{\rm e}^{2\,x}}+1 \right) ^{2}}}\,{\rm d}x
+$$ Moment Generating Function 
+ $$\int_{-\infty }^{\infty }\!2\,{\frac {{{\rm e}^{x \left( t+2 \right) }
+}}{ \left( {{\rm e}^{2\,x}}+1 \right) ^{2}}}\,{\rm d}x_{{1}}
+$$-------------------------------------------------------------------------------------------  \\$$t\mapsto {{\rm e}^{-t}}
+$$Probability Distribution Function 
+$$  f(x)=-2\,{\frac {\ln  \left( x \right) }{ \left(  \left( \ln  \left( x
+ \right)  \right) ^{2}+1 \right) ^{2}x}}
+$$Cumulative Distribution Function  
+ $$F(x)= \left(  \left( \ln  \left( x \right)  \right) ^{2}+1 \right) ^{-1}
+$$ Inverse Cumulative Distribution Function 
+
+$$[s\mapsto {{\rm e}^{-{\frac {\sqrt {-s \left( s-1 \right) }}{s}}}}]
+$$Survivor Function 
+ $$ S(x)=1- \left(  \left( \ln  \left( x \right)  \right) ^{2}+1 \right) ^{-1}
+$$ Hazard Function 
+ $$ h(x)=-2\,{\frac {1}{\ln  \left( x \right)  \left(  \left( \ln  \left( x
+ \right)  \right) ^{2}+1 \right) x}}
+$$Mean 
+ $$ mu=-i/2{{\rm e}^{i}}{\it Ei} \left( 1,i \right) +i/2{{\rm e}^{-i}}{\it Ei
+} \left( 1,-i \right) +1
+$$ Variance 
+ $$ sigma^2 = -i{\it Ei} \left( 1,2\,i \right) {{\rm e}^{2\,i}}+i{\it Ei} \left( 1,-
+2\,i \right) {{\rm e}^{-2\,i}}+1/4\,{{\rm e}^{2\,i}} \left( {\it Ei}
+ \left( 1,i \right)  \right) ^{2}-1/2\,{\it Ei} \left( 1,i \right) {
+\it Ei} \left( 1,-i \right) +i{{\rm e}^{i}}{\it Ei} \left( 1,i
+ \right) +1/4\,{{\rm e}^{-2\,i}} \left( {\it Ei} \left( 1,-i \right) 
+ \right) ^{2}-i{{\rm e}^{-i}}{\it Ei} \left( 1,-i \right) 
+$$Moment Function 
+ $$ m(x) = -1/2\, \left( ir\,{{\rm e}^{2\,ir}}{\it Ei} \left( 1,ir \right) -ir\,{
+\it Ei} \left( 1,-ir \right) -2\,{{\rm e}^{ir}} \right) {{\rm e}^{-ir}
+}
+$$ Moment Generating Function 
+ $$-2\,\int_{0}^{1}\!{\frac {{{\rm e}^{tx}}\ln  \left( x \right) }{
+ \left(  \left( \ln  \left( x \right)  \right) ^{2}+1 \right) ^{2}x}}
+\,{\rm d}x_{{1}}
+$$-------------------------------------------------------------------------------------------  \\$$t\mapsto -\ln  \left( t \right) 
+$$Probability Distribution Function 
+$$  f(x)=2\,{\frac {{{\rm e}^{2\,x}}}{ \left( {{\rm e}^{2\,x}}+1 \right) ^{2}}}
+$$Cumulative Distribution Function  
+ $$F(x)={\frac {{{\rm e}^{2\,x}}}{{{\rm e}^{2\,x}}+1}}
+$$ Inverse Cumulative Distribution Function 
+  $$F^{-1} = [s\mapsto 1/2\,\ln  \left( -{\frac {s}{-1+s}} \right) ]
+$$Survivor Function 
+ $$ S(x)= \left( {{\rm e}^{2\,x}}+1 \right) ^{-1}
+$$ Hazard Function 
+ $$ h(x)=2\,{\frac {{{\rm e}^{2\,x}}}{{{\rm e}^{2\,x}}+1}}
+$$Mean 
+ $$ mu=0
+$$ Variance 
+ $$ sigma^2 = 1/12\,{\pi}^{2}
+$$Moment Function 
+ $$ m(x) = \int_{-\infty }^{\infty }\!2\,{\frac {{x}^{r}{{\rm e}^{2\,x}}}{
+ \left( {{\rm e}^{2\,x}}+1 \right) ^{2}}}\,{\rm d}x
+$$ Moment Generating Function 
+ $$\int_{-\infty }^{\infty }\!2\,{\frac {{{\rm e}^{x \left( t+2 \right) }
+}}{ \left( {{\rm e}^{2\,x}}+1 \right) ^{2}}}\,{\rm d}x_{{1}}
+$$-------------------------------------------------------------------------------------------  \\$$t\mapsto \ln  \left( t+1 \right) 
+$$Probability Distribution Function 
+$$  f(x)=2\,{\frac { \left( {{\rm e}^{x}}-1 \right) {{\rm e}^{x}}}{ \left( -{
+{\rm e}^{2\,x}}+2\,{{\rm e}^{x}}-2 \right) ^{2}}}
+$$Cumulative Distribution Function  
+ $$F(x)={\frac {{{\rm e}^{2\,x}}-2\,{{\rm e}^{x}}+1}{{{\rm e}^{2\,x}}-2\,{
+{\rm e}^{x}}+2}}
+$$ Inverse Cumulative Distribution Function 
+
+$$[s\mapsto \ln  \left( -{\frac {-s+1+\sqrt {-s \left( s-1 \right) }}{s-
+1}} \right) ]
+$$Survivor Function 
+ $$ S(x)= \left( {{\rm e}^{2\,x}}-2\,{{\rm e}^{x}}+2 \right) ^{-1}
+$$ Hazard Function 
+ $$ h(x)=2\,{\frac { \left( {{\rm e}^{x}}-1 \right) {{\rm e}^{x}}}{{{\rm e}^{2
+\,x}}-2\,{{\rm e}^{x}}+2}}
+$$Mean 
+ $$ mu=\pi/4
+$$ Variance 
+ $$ sigma^2 =  \left( 1/2-i/2 \right) {\it dilog} \left( 1/2-i/2 \right) + \left( 1/
+2+i/2 \right) {\it dilog} \left( 1/2+i/2 \right) +i/2\ln  \left( 2
+ \right) \ln  \left( -1-i \right) +i/4 \left( \ln  \left( -1+i
+ \right)  \right) ^{2}-i/2\ln  \left( 2 \right) \ln  \left( -1+i
+ \right) +{\frac {5\,{\pi}^{2}}{48}}+1/2\, \left( \ln  \left( 2
+ \right)  \right) ^{2}-1/2\,\ln  \left( 2 \right) \ln  \left( -1+i
+ \right) -1/2\,\ln  \left( 2 \right) \ln  \left( -1-i \right) +1/4\,
+ \left( \ln  \left( -1+i \right)  \right) ^{2}+1/4\, \left( \ln 
+ \left( -1-i \right)  \right) ^{2}-i/4 \left( \ln  \left( -1-i
+ \right)  \right) ^{2}
+$$Moment Function 
+ $$ m(x) = \int_{0}^{\infty }\!2\,{\frac {{x}^{r} \left( {{\rm e}^{x}}-1 \right) 
+{{\rm e}^{x}}}{ \left( -{{\rm e}^{2\,x}}+2\,{{\rm e}^{x}}-2 \right) ^{
+2}}}\,{\rm d}x
+$$ Moment Generating Function 
+ $$\int_{0}^{\infty }\!2\,{\frac { \left( {{\rm e}^{x}}-1 \right) {
+{\rm e}^{x \left( t+1 \right) }}}{ \left( {{\rm e}^{2\,x}}-2\,{{\rm e}
+^{x}}+2 \right) ^{2}}}\,{\rm d}x_{{1}}
+$$-------------------------------------------------------------------------------------------  \\$$t\mapsto  \left( \ln  \left( t+2 \right)  \right) ^{-1}
+$$Probability Distribution Function 
+$$  f(x)=2\,{\frac { \left( {{\rm e}^{{x}^{-1}}}-2 \right) {{\rm e}^{{x}^{-1}}}
+}{{x}^{2}} \left( {{\rm e}^{2\,{x}^{-1}}}-4\,{{\rm e}^{{x}^{-1}}}+5
+ \right) ^{-2}}
+$$Cumulative Distribution Function  
+ $$F(x)= \left( {{\rm e}^{2\,{x}^{-1}}}-4\,{{\rm e}^{{x}^{-1}}}+5 \right) ^{-1
+}
+$$ Inverse Cumulative Distribution Function 
+  $$F^{-1} = [s\mapsto  \left( \ln  \left( {\frac {2\,s+\sqrt {-s \left( s-1
+ \right) }}{s}} \right)  \right) ^{-1}]
+$$Survivor Function 
+ $$ S(x)={1 \left( {{\rm e}^{2\,{x}^{-1}}}-4\,{{\rm e}^{{x}^{-1}}}+4 \right) 
+ \left( {{\rm e}^{2\,{x}^{-1}}}-4\,{{\rm e}^{{x}^{-1}}}+5 \right) ^{-1
+}}
+$$ Hazard Function 
+ $$ h(x)=2\,{\frac {{{\rm e}^{{x}^{-1}}}}{ \left( {{\rm e}^{{x}^{-1}}}-2
+ \right) {x}^{2}} \left( {{\rm e}^{2\,{x}^{-1}}}-4\,{{\rm e}^{{x}^{-1}
+}}+5 \right) ^{-1}}
+$$Mean 
+ $$ mu=2\,\int_{0}^{ \left( \ln  \left( 2 \right)  \right) ^{-1}}\!{\frac {
+ \left( {{\rm e}^{{x}^{-1}}}-2 \right) {{\rm e}^{{x}^{-1}}}}{x}
+ \left( -{{\rm e}^{2\,{x}^{-1}}}+4\,{{\rm e}^{{x}^{-1}}}-5 \right) ^{-
+2}}\,{\rm d}x
+$$ Variance 
+ $$ sigma^2 = 2\,\int_{0}^{ \left( \ln  \left( 2 \right)  \right) ^{-1}}\!{ \left( {
+{\rm e}^{{x}^{-1}}}-2 \right) {{\rm e}^{{x}^{-1}}} \left( -{{\rm e}^{2
+\,{x}^{-1}}}+4\,{{\rm e}^{{x}^{-1}}}-5 \right) ^{-2}}\,{\rm d}x-4\,
+ \left( \int_{0}^{ \left( \ln  \left( 2 \right)  \right) ^{-1}}\!{
+\frac { \left( {{\rm e}^{{x}^{-1}}}-2 \right) {{\rm e}^{{x}^{-1}}}}{x}
+ \left( -{{\rm e}^{2\,{x}^{-1}}}+4\,{{\rm e}^{{x}^{-1}}}-5 \right) ^{-
+2}}\,{\rm d}x \right) ^{2}
+$$Moment Function 
+ $$ m(x) = \int_{0}^{ \left( \ln  \left( 2 \right)  \right) ^{-1}}\!2\,{\frac {{x
+}^{r} \left( {{\rm e}^{{x}^{-1}}}-2 \right) {{\rm e}^{{x}^{-1}}}}{{x}^
+{2}} \left( {{\rm e}^{2\,{x}^{-1}}}-4\,{{\rm e}^{{x}^{-1}}}+5 \right) 
+^{-2}}\,{\rm d}x
+$$ Moment Generating Function 
+ $$2\,\int_{0}^{ \left( \ln  \left( 2 \right)  \right) ^{-1}}\!{\frac {{
+{\rm e}^{{x}^{-1}}}-2}{{x}^{2}}{{\rm e}^{{\frac {t{x}^{2}+1}{x}}}}
+ \left( -{{\rm e}^{2\,{x}^{-1}}}+4\,{{\rm e}^{{x}^{-1}}}-5 \right) ^{-
+2}}\,{\rm d}x_{{1}}
+$$-------------------------------------------------------------------------------------------  \\$$t\mapsto \tanh \left( t \right) 
+$$Probability Distribution Function 
+$$  f(x)=-2\,{\frac {{\rm arctanh} \left(x\right)}{ \left(  \left( 
+{\rm arctanh} \left(x\right) \right) ^{2}+1 \right) ^{2} \left( {x}^{2
+}-1 \right) }}
+$$Cumulative Distribution Function  
+ $$F(x)={\frac { \left( {\rm arctanh} \left(x\right) \right) ^{2}}{ \left( 
+{\rm arctanh} \left(x\right) \right) ^{2}+1}}
+$$ Inverse Cumulative Distribution Function 
+
+$$[s\mapsto -\tanh \left( {\frac {\sqrt {- \left( s-1 \right) s}}{s-1}}
+ \right) ]
+$$Survivor Function 
+ $$ S(x)= \left(  \left( {\rm arctanh} \left(x\right) \right) ^{2}+1 \right) ^{
+-1}
+$$ Hazard Function 
+ $$ h(x)=-2\,{\frac {{\rm arctanh} \left(x\right)}{ \left(  \left( 
+{\rm arctanh} \left(x\right) \right) ^{2}+1 \right)  \left( {x}^{2}-1
+ \right) }}
+$$Mean 
+ $$ mu=-2\,\int_{0}^{1}\!{\frac {x{\rm arctanh} \left(x\right)}{ \left( 
+ \left( {\rm arctanh} \left(x\right) \right) ^{2}+1 \right) ^{2}
+ \left( {x}^{2}-1 \right) }}\,{\rm d}x
+$$ Variance 
+ $$ sigma^2 = -2\,\int_{0}^{1}\!{\frac {{x}^{2}{\rm arctanh} \left(x\right)}{
+ \left(  \left( {\rm arctanh} \left(x\right) \right) ^{2}+1 \right) ^{
+2} \left( {x}^{2}-1 \right) }}\,{\rm d}x-4\, \left( \int_{0}^{1}\!{
+\frac {x{\rm arctanh} \left(x\right)}{ \left(  \left( {\rm arctanh} 
+\left(x\right) \right) ^{2}+1 \right) ^{2} \left( {x}^{2}-1 \right) }}
+\,{\rm d}x \right) ^{2}
+$$Moment Function 
+ $$ m(x) = \int_{0}^{1}\!-2\,{\frac {{x}^{r}{\rm arctanh} \left(x\right)}{
+ \left(  \left( {\rm arctanh} \left(x\right) \right) ^{2}+1 \right) ^{
+2} \left( {x}^{2}-1 \right) }}\,{\rm d}x
+$$ Moment Generating Function 
+ $$-2\,\int_{0}^{1}\!{\frac {{{\rm e}^{tx}}{\rm arctanh} \left(x\right)}{
+ \left(  \left( {\rm arctanh} \left(x\right) \right) ^{2}+1 \right) ^{
+2} \left( {x}^{2}-1 \right) }}\,{\rm d}x_{{1}}
+$$-------------------------------------------------------------------------------------------  \\$$t\mapsto \sinh \left( t \right) 
+$$Probability Distribution Function 
+$$  f(x)=2\,{\frac {{\rm arcsinh} \left(x\right)}{ \left(  \left( {\rm arcsinh}
+ \left(x\right) \right) ^{2}+1 \right) ^{2}\sqrt {{x}^{2}+1}}}
+$$Cumulative Distribution Function  
+ $$F(x)={\frac { \left( \ln  \left( -x+\sqrt {{x}^{2}+1} \right)  \right) ^{2}
+}{ \left( \ln  \left( -x+\sqrt {{x}^{2}+1} \right)  \right) ^{2}+1}}
+$$ Inverse Cumulative Distribution Function 
+  $$F^{-1} = [s\mapsto -1/2\,{{\rm e}^{{\frac {\sqrt {- \left( s-1 \right) s}}{s-1}
+}}}+1/2\,{{\rm e}^{-{\frac {\sqrt {- \left( s-1 \right) s}}{s-1}}}}]
+$$Survivor Function 
+ $$ S(x)= \left(  \left( \ln  \left( -x+\sqrt {{x}^{2}+1} \right)  \right) ^{2}
++1 \right) ^{-1}
+$$ Hazard Function 
+ $$ h(x)=2\,{\frac {{\rm arcsinh} \left(x\right) \left(  \left( \ln  \left( -x+
+\sqrt {{x}^{2}+1} \right)  \right) ^{2}+1 \right) }{ \left(  \left( 
+{\rm arcsinh} \left(x\right) \right) ^{2}+1 \right) ^{2}\sqrt {{x}^{2}
++1}}}
+$$Mean 
+ $$ mu=\infty 
+$$ Variance 
+ $$ sigma^2 = {\it undefined}
+$$Moment Function 
+ $$ m(x) = \infty 
+$$ Moment Generating Function 
+ $$\int_{0}^{\infty }\!2\,{\frac {{{\rm e}^{tx}}{\rm arcsinh} \left(x
+\right)}{ \left(  \left( {\rm arcsinh} \left(x\right) \right) ^{2}+1
+ \right) ^{2}\sqrt {{x}^{2}+1}}}\,{\rm d}x_{{1}}
+$$-------------------------------------------------------------------------------------------  \\$$t\mapsto {\rm arcsinh} \left(t\right)
+$$Probability Distribution Function 
+$$  f(x)=2\,{\frac {\sinh \left( x \right) }{ \left( \cosh \left( x \right) 
+ \right) ^{3}}}
+$$Cumulative Distribution Function  
+ $$F(x)={\frac {{{\rm e}^{4\,x}}-2\,{{\rm e}^{2\,x}}+1}{{{\rm e}^{4\,x}}+2\,{
+{\rm e}^{2\,x}}+1}}
+$$ Inverse Cumulative Distribution Function 
+
+$$[s\mapsto 1/2\,\ln  \left( -{\frac {s+1+2\,\sqrt {s}}{-1+s}} \right) ]
+$$Survivor Function 
+ $$ S(x)=4\,{\frac {{{\rm e}^{2\,x}}}{{{\rm e}^{4\,x}}+2\,{{\rm e}^{2\,x}}+1}}
+$$ Hazard Function 
+ $$ h(x)=1/2\,{\frac {\sinh \left( x \right)  \left( {{\rm e}^{2\,x}}+2+{
+{\rm e}^{-2\,x}} \right) }{ \left( \cosh \left( x \right)  \right) ^{3
+}}}
+$$Mean 
+ $$ mu=1
+$$ Variance 
+ $$ sigma^2 = 2\,\ln  \left( 2 \right) -1
+$$Moment Function 
+ $$ m(x) = \int_{0}^{\infty }\!2\,{\frac {{x}^{r}\sinh \left( x \right) }{
+ \left( \cosh \left( x \right)  \right) ^{3}}}\,{\rm d}x
+$$ Moment Generating Function 
+ $$\int_{0}^{\infty }\!2\,{\frac {{{\rm e}^{tx}}\sinh \left( x \right) }{
+ \left( \cosh \left( x \right)  \right) ^{3}}}\,{\rm d}x_{{1}}
+$$-------------------------------------------------------------------------------------------  \\$$t\mapsto {\rm csch} \left(t+1\right)
+$$Probability Distribution Function 
+$$  f(x)=2\,{\frac {-1+{\rm arccsch} \left(x\right)}{\sqrt {{x}^{2}+1} \left( 
+ \left( {\rm arccsch} \left(x\right) \right) ^{2}-2\,{\rm arccsch} 
+\left(x\right)+2 \right) ^{2} \left| x \right| }}
+$$Cumulative Distribution Function  
+ $$F(x)=2\,\int_{0}^{x}\!{\frac {-1+{\rm arccsch} \left(t\right)}{\sqrt {{t}^{
+2}+1} \left(  \left( {\rm arccsch} \left(t\right) \right) ^{2}-2\,
+{\rm arccsch} \left(t\right)+2 \right) ^{2} \left| t \right| }}
+\,{\rm d}t
+$$ Inverse Cumulative Distribution Function 
+
+Survivor Function 
+ $$ S(x)=1-2\,\int_{0}^{x}\!{\frac {-1+{\rm arccsch} \left(t\right)}{\sqrt {{t}
+^{2}+1} \left(  \left( {\rm arccsch} \left(t\right) \right) ^{2}-2\,
+{\rm arccsch} \left(t\right)+2 \right) ^{2} \left| t \right| }}
+\,{\rm d}t
+$$ Hazard Function 
+ $$ h(x)=-2\,{\frac {-1+{\rm arccsch} \left(x\right)}{\sqrt {{x}^{2}+1} \left( 
+ \left( {\rm arccsch} \left(x\right) \right) ^{2}-2\,{\rm arccsch} 
+\left(x\right)+2 \right) ^{2} \left| x \right| } \left( -1+2\,\int_{0}
+^{x}\!{\frac {-1+{\rm arccsch} \left(t\right)}{\sqrt {{t}^{2}+1}
+ \left(  \left( {\rm arccsch} \left(t\right) \right) ^{2}-2\,
+{\rm arccsch} \left(t\right)+2 \right) ^{2} \left| t \right| }}
+\,{\rm d}t \right) ^{-1}}
+$$Mean 
+ $$ mu=2\,\int_{0}^{2\,{\frac {{\rm e}}{{{\rm e}^{2}}-1}}}\!{\frac {-1+
+{\rm arccsch} \left(x\right)}{\sqrt {{x}^{2}+1} \left(  \left( 
+{\rm arccsch} \left(x\right) \right) ^{2}-2\,{\rm arccsch} \left(x
+\right)+2 \right) ^{2}}}\,{\rm d}x
+$$ Variance 
+ $$ sigma^2 = 2\,\int_{0}^{2\,{\frac {{\rm e}}{{{\rm e}^{2}}-1}}}\!{\frac {x \left( 
+-1+{\rm arccsch} \left(x\right) \right) }{\sqrt {{x}^{2}+1} \left( 
+ \left( {\rm arccsch} \left(x\right) \right) ^{2}-2\,{\rm arccsch} 
+\left(x\right)+2 \right) ^{2}}}\,{\rm d}x-4\, \left( \int_{0}^{2\,{
+\frac {{\rm e}}{{{\rm e}^{2}}-1}}}\!{\frac {-1+{\rm arccsch} \left(x
+\right)}{\sqrt {{x}^{2}+1} \left(  \left( {\rm arccsch} \left(x\right)
+ \right) ^{2}-2\,{\rm arccsch} \left(x\right)+2 \right) ^{2}}}
+\,{\rm d}x \right) ^{2}
+$$Moment Function 
+ $$ m(x) = \int_{0}^{2\, \left( {\rm e}-{{\rm e}^{-1}} \right) ^{-1}}\!2\,{\frac 
+{{x}^{r} \left( -1+{\rm arccsch} \left(x\right) \right) }{\sqrt {{x}^{
+2}+1} \left(  \left( {\rm arccsch} \left(x\right) \right) ^{2}-2\,
+{\rm arccsch} \left(x\right)+2 \right) ^{2} \left| x \right| }}
+\,{\rm d}x
+$$ Moment Generating Function 
+ $$2\,\int_{0}^{2\,{\frac {{\rm e}}{{{\rm e}^{2}}-1}}}\!{\frac {{{\rm e}^
+{tx}} \left( -1+{\rm arccsch} \left(x\right) \right) }{\sqrt {{x}^{2}+
+1} \left(  \left( {\rm arccsch} \left(x\right) \right) ^{2}-2\,
+{\rm arccsch} \left(x\right)+2 \right) ^{2}x}}\,{\rm d}x_{{1}}
+$$-------------------------------------------------------------------------------------------  \\$$t\mapsto {\rm arccsch} \left(t+1\right)
+$$Probability Distribution Function 
+$$  f(x)=2\,{\frac {\sinh \left( x \right) \cosh \left( x \right)  \left( \sinh
+ \left( x \right) -1 \right) }{-4\, \left( \cosh \left( x \right) 
+ \right) ^{4}+8\,\sinh \left( x \right)  \left( \cosh \left( x
+ \right)  \right) ^{2}-4\,\sinh \left( x \right) +3}}
+$$Cumulative Distribution Function  
+ $$F(x)=-1/2\,{\frac { \left( {{\rm e}^{-x}}-1 \right) ^{2} \left( {{\rm e}^{-
+x}}+1 \right) ^{2}}{-{{\rm e}^{-4\,x}}-2\,{{\rm e}^{-3\,x}}+2\,{
+{\rm e}^{-x}}-1}}
+$$ Inverse Cumulative Distribution Function 
+  $$F^{-1} = [s\mapsto -\ln  \left( {\it RootOf} \left(  \left( 2\,s-1 \right) {{
+\it \_Z}}^{4}+4\,s{{\it \_Z}}^{3}+2\,{{\it \_Z}}^{2}-4\,s{\it \_Z}+2\,
+s-1 \right)  \right) ]
+$$Survivor Function 
+ $$ S(x)=1/2\,{\frac {{{\rm e}^{-4\,x}}+4\,{{\rm e}^{-3\,x}}+2\,{{\rm e}^{-2\,x
+}}-4\,{{\rm e}^{-x}}+1}{{{\rm e}^{-4\,x}}+2\,{{\rm e}^{-3\,x}}-2\,{
+{\rm e}^{-x}}+1}}
+$$ Hazard Function 
+ $$ h(x)=-4\,{\frac { \left( \sinh \left( x \right) -1 \right) \cosh \left( x
+ \right) \sinh \left( x \right)  \left( -{{\rm e}^{-4\,x}}-2\,{{\rm e}
+^{-3\,x}}+2\,{{\rm e}^{-x}}-1 \right) }{ \left( -{{\rm e}^{-4\,x}}-4\,
+{{\rm e}^{-3\,x}}-2\,{{\rm e}^{-2\,x}}+4\,{{\rm e}^{-x}}-1 \right) 
+ \left( 4\, \left( \cosh \left( x \right)  \right) ^{4}-8\,\sinh
+ \left( x \right)  \left( \cosh \left( x \right)  \right) ^{2}+4\,
+\sinh \left( x \right) -3 \right) }}
+$$Mean 
+ $$ mu=-1/20\,\arctan \left( \sqrt {5}\sqrt {-4+2\,\sqrt {5}}+3/4\,\sqrt {5}
+\sqrt {-4+2\,\sqrt {5}}\sqrt {2}+2\,\sqrt {-4+2\,\sqrt {5}}+7/4\,
+\sqrt {-4+2\,\sqrt {5}}\sqrt {2} \right) \sqrt {5}\sqrt {-4+2\,\sqrt {
+5}}\sqrt {2}+1/20\,\ln  \left( -14\,\sqrt {2}-9\,\sqrt {5}\sqrt {-4+2
+\,\sqrt {5}}\sqrt {2}-6\,\sqrt {5}\sqrt {2}-20\,\sqrt {-4+2\,\sqrt {5}
+}\sqrt {2}+13\,\sqrt {5}\sqrt {-4+2\,\sqrt {5}}+9\,\sqrt {5}+29\,
+\sqrt {-4+2\,\sqrt {5}}+20 \right) \sqrt {5}\sqrt {-4+2\,\sqrt {5}}
+\sqrt {2}+1/8\,\ln  \left( -14\,\sqrt {2}-9\,\sqrt {5}\sqrt {-4+2\,
+\sqrt {5}}\sqrt {2}-6\,\sqrt {5}\sqrt {2}-20\,\sqrt {-4+2\,\sqrt {5}}
+\sqrt {2}+13\,\sqrt {5}\sqrt {-4+2\,\sqrt {5}}+9\,\sqrt {5}+29\,\sqrt 
+{-4+2\,\sqrt {5}}+20 \right) \sqrt {-4+2\,\sqrt {5}}\sqrt {2}+1/2\,
+\ln  \left( 1+\sqrt {2} \right) 
+$$ Variance 
+ $$ sigma^2 = 1/10\,\sqrt {4-2\,i}\ln  \left( 1+\sqrt {2} \right) \arctan \left( 1/2
+\,{\frac {\sqrt {5}\sqrt {-4+2\,\sqrt {5}}\sqrt {2}+2\,\sqrt {5}\sqrt 
+{-4+2\,\sqrt {5}}-3\,\sqrt {-4+2\,\sqrt {5}}\sqrt {2}+2\,\sqrt {\sqrt 
+{5}+2}\sqrt {2}-4\,\sqrt {-4+2\,\sqrt {5}}+4\,\sqrt {\sqrt {5}+2}}{2\,
+\sqrt {5}\sqrt {2}+3\,\sqrt {5}-4\,\sqrt {2}-7}} \right) +1/10\,\sqrt 
+{4+2\,i}\ln  \left( 1+\sqrt {2} \right) \arctan \left( 1/2\,{\frac {
+\sqrt {5}\sqrt {-4+2\,\sqrt {5}}\sqrt {2}+2\,\sqrt {5}\sqrt {-4+2\,
+\sqrt {5}}-3\,\sqrt {-4+2\,\sqrt {5}}\sqrt {2}+2\,\sqrt {\sqrt {5}+2}
+\sqrt {2}-4\,\sqrt {-4+2\,\sqrt {5}}+4\,\sqrt {\sqrt {5}+2}}{2\,\sqrt 
+{5}\sqrt {2}+3\,\sqrt {5}-4\,\sqrt {2}-7}} \right) +1/10\, \left( 
+\arctan \left( \sqrt {5}\sqrt {-4+2\,\sqrt {5}}+3/4\,\sqrt {5}\sqrt {-
+4+2\,\sqrt {5}}\sqrt {2}+2\,\sqrt {-4+2\,\sqrt {5}}+7/4\,\sqrt {-4+2\,
+\sqrt {5}}\sqrt {2} \right)  \right) ^{2}-1/10\,\pi\,\ln  \left( 1+
+\sqrt {2} \right) \sqrt {4-2\,i}-1/10\,\pi\,\ln  \left( 1+\sqrt {2}
+ \right) \sqrt {4+2\,i}-1/40\, \left( \ln  \left( -14\,\sqrt {2}-9\,
+\sqrt {5}\sqrt {-4+2\,\sqrt {5}}\sqrt {2}-6\,\sqrt {5}\sqrt {2}-20\,
+\sqrt {-4+2\,\sqrt {5}}\sqrt {2}+13\,\sqrt {5}\sqrt {-4+2\,\sqrt {5}}+
+9\,\sqrt {5}+29\,\sqrt {-4+2\,\sqrt {5}}+20 \right)  \right) ^{2}+1/4
+\, \left( \ln  \left( 1+\sqrt {2} \right)  \right) ^{2}-1/10\,\ln 
+ \left( 1+\sqrt {2} \right) \sqrt {4-2\,i}\ln  \left( -5\,\sqrt {5}
+\sqrt {-4+2\,\sqrt {5}}\sqrt {2}+4\,\sqrt {5}\sqrt {2}-8\,\sqrt {5}
+\sqrt {-4+2\,\sqrt {5}}-13\,\sqrt {-4+2\,\sqrt {5}}\sqrt {2}+6\,\sqrt 
+{5}+8\,\sqrt {2}-20\,\sqrt {-4+2\,\sqrt {5}}+14 \right) -1/10\,\ln 
+ \left( 1+\sqrt {2} \right) \sqrt {4+2\,i}\ln  \left( -5\,\sqrt {5}
+\sqrt {-4+2\,\sqrt {5}}\sqrt {2}+4\,\sqrt {5}\sqrt {2}-8\,\sqrt {5}
+\sqrt {-4+2\,\sqrt {5}}-13\,\sqrt {-4+2\,\sqrt {5}}\sqrt {2}+6\,\sqrt 
+{5}+8\,\sqrt {2}-20\,\sqrt {-4+2\,\sqrt {5}}+14 \right) +1/10\,\ln 
+ \left( 1+\sqrt {2} \right) \sqrt {4-2\,i}\ln  \left( 5\,\sqrt {5}
+\sqrt {-4+2\,\sqrt {5}}\sqrt {2}+4\,\sqrt {5}\sqrt {2}+8\,\sqrt {5}
+\sqrt {-4+2\,\sqrt {5}}+13\,\sqrt {-4+2\,\sqrt {5}}\sqrt {2}+6\,\sqrt 
+{5}+8\,\sqrt {2}+20\,\sqrt {-4+2\,\sqrt {5}}+14 \right) +1/10\,\ln 
+ \left( 1+\sqrt {2} \right) \sqrt {4+2\,i}\ln  \left( 5\,\sqrt {5}
+\sqrt {-4+2\,\sqrt {5}}\sqrt {2}+4\,\sqrt {5}\sqrt {2}+8\,\sqrt {5}
+\sqrt {-4+2\,\sqrt {5}}+13\,\sqrt {-4+2\,\sqrt {5}}\sqrt {2}+6\,\sqrt 
+{5}+8\,\sqrt {2}+20\,\sqrt {-4+2\,\sqrt {5}}+14 \right) -1/20\,\ln 
+ \left( -14\,\sqrt {2}-9\,\sqrt {5}\sqrt {-4+2\,\sqrt {5}}\sqrt {2}-6
+\,\sqrt {5}\sqrt {2}-20\,\sqrt {-4+2\,\sqrt {5}}\sqrt {2}+13\,\sqrt {5
+}\sqrt {-4+2\,\sqrt {5}}+9\,\sqrt {5}+29\,\sqrt {-4+2\,\sqrt {5}}+20
+ \right) \sqrt {5}\sqrt {-4+2\,\sqrt {5}}\sqrt {2}\ln  \left( 1+\sqrt 
+{2} \right) +1/20\,\arctan \left( \sqrt {5}\sqrt {-4+2\,\sqrt {5}}+3/4
+\,\sqrt {5}\sqrt {-4+2\,\sqrt {5}}\sqrt {2}+2\,\sqrt {-4+2\,\sqrt {5}}
++7/4\,\sqrt {-4+2\,\sqrt {5}}\sqrt {2} \right) \sqrt {5}\sqrt {-4+2\,
+\sqrt {5}}\sqrt {2}\ln  \left( 1+\sqrt {2} \right) -1/8\,\ln  \left( -
+14\,\sqrt {2}-9\,\sqrt {5}\sqrt {-4+2\,\sqrt {5}}\sqrt {2}-6\,\sqrt {5
+}\sqrt {2}-20\,\sqrt {-4+2\,\sqrt {5}}\sqrt {2}+13\,\sqrt {5}\sqrt {-4
++2\,\sqrt {5}}+9\,\sqrt {5}+29\,\sqrt {-4+2\,\sqrt {5}}+20 \right) 
+\sqrt {-4+2\,\sqrt {5}}\sqrt {2}\ln  \left( 1+\sqrt {2} \right) +i/5
+\sqrt {4+2\,i}\ln  \left( 1+\sqrt {2} \right) \arctan \left( 1/2\,{
+\frac {\sqrt {5}\sqrt {-4+2\,\sqrt {5}}\sqrt {2}+2\,\sqrt {5}\sqrt {-4
++2\,\sqrt {5}}-3\,\sqrt {-4+2\,\sqrt {5}}\sqrt {2}+2\,\sqrt {\sqrt {5}
++2}\sqrt {2}-4\,\sqrt {-4+2\,\sqrt {5}}+4\,\sqrt {\sqrt {5}+2}}{2\,
+\sqrt {5}\sqrt {2}+3\,\sqrt {5}-4\,\sqrt {2}-7}} \right) -i/20\ln 
+ \left( 1+\sqrt {2} \right) \sqrt {4-2\,i}\ln  \left( -5\,\sqrt {5}
+\sqrt {-4+2\,\sqrt {5}}\sqrt {2}+4\,\sqrt {5}\sqrt {2}-8\,\sqrt {5}
+\sqrt {-4+2\,\sqrt {5}}-13\,\sqrt {-4+2\,\sqrt {5}}\sqrt {2}+6\,\sqrt 
+{5}+8\,\sqrt {2}-20\,\sqrt {-4+2\,\sqrt {5}}+14 \right) +i/20\ln 
+ \left( 1+\sqrt {2} \right) \sqrt {4+2\,i}\ln  \left( -5\,\sqrt {5}
+\sqrt {-4+2\,\sqrt {5}}\sqrt {2}+4\,\sqrt {5}\sqrt {2}-8\,\sqrt {5}
+\sqrt {-4+2\,\sqrt {5}}-13\,\sqrt {-4+2\,\sqrt {5}}\sqrt {2}+6\,\sqrt 
+{5}+8\,\sqrt {2}-20\,\sqrt {-4+2\,\sqrt {5}}+14 \right) +i/20\ln 
+ \left( 1+\sqrt {2} \right) \sqrt {4-2\,i}\ln  \left( 5\,\sqrt {5}
+\sqrt {-4+2\,\sqrt {5}}\sqrt {2}+4\,\sqrt {5}\sqrt {2}+8\,\sqrt {5}
+\sqrt {-4+2\,\sqrt {5}}+13\,\sqrt {-4+2\,\sqrt {5}}\sqrt {2}+6\,\sqrt 
+{5}+8\,\sqrt {2}+20\,\sqrt {-4+2\,\sqrt {5}}+14 \right) -i/20\ln 
+ \left( 1+\sqrt {2} \right) \sqrt {4+2\,i}\ln  \left( 5\,\sqrt {5}
+\sqrt {-4+2\,\sqrt {5}}\sqrt {2}+4\,\sqrt {5}\sqrt {2}+8\,\sqrt {5}
+\sqrt {-4+2\,\sqrt {5}}+13\,\sqrt {-4+2\,\sqrt {5}}\sqrt {2}+6\,\sqrt 
+{5}+8\,\sqrt {2}+20\,\sqrt {-4+2\,\sqrt {5}}+14 \right) -i/5\pi\,\ln 
+ \left( 1+\sqrt {2} \right) \sqrt {4+2\,i}-i/5\sqrt {4-2\,i}\ln 
+ \left( 1+\sqrt {2} \right) \arctan \left( 1/2\,{\frac {\sqrt {5}
+\sqrt {-4+2\,\sqrt {5}}\sqrt {2}+2\,\sqrt {5}\sqrt {-4+2\,\sqrt {5}}-3
+\,\sqrt {-4+2\,\sqrt {5}}\sqrt {2}+2\,\sqrt {\sqrt {5}+2}\sqrt {2}-4\,
+\sqrt {-4+2\,\sqrt {5}}+4\,\sqrt {\sqrt {5}+2}}{2\,\sqrt {5}\sqrt {2}+
+3\,\sqrt {5}-4\,\sqrt {2}-7}} \right) +i/5\pi\,\ln  \left( 1+\sqrt {2}
+ \right) \sqrt {4-2\,i}+1/20\,\arctan \left( \sqrt {5}\sqrt {-4+2\,
+\sqrt {5}}+3/4\,\sqrt {5}\sqrt {-4+2\,\sqrt {5}}\sqrt {2}+2\,\sqrt {-4
++2\,\sqrt {5}}+7/4\,\sqrt {-4+2\,\sqrt {5}}\sqrt {2} \right) \ln 
+ \left( -14\,\sqrt {2}-9\,\sqrt {5}\sqrt {-4+2\,\sqrt {5}}\sqrt {2}-6
+\,\sqrt {5}\sqrt {2}-20\,\sqrt {-4+2\,\sqrt {5}}\sqrt {2}+13\,\sqrt {5
+}\sqrt {-4+2\,\sqrt {5}}+9\,\sqrt {5}+29\,\sqrt {-4+2\,\sqrt {5}}+20
+ \right) -1/20\, \left( \arctan \left( \sqrt {5}\sqrt {-4+2\,\sqrt {5}
+}+3/4\,\sqrt {5}\sqrt {-4+2\,\sqrt {5}}\sqrt {2}+2\,\sqrt {-4+2\,
+\sqrt {5}}+7/4\,\sqrt {-4+2\,\sqrt {5}}\sqrt {2} \right)  \right) ^{2}
+\sqrt {5}+ \left( i/10\sqrt {4+2\,i}-1/5\,\sqrt {4+2\,i} \right) {\it 
+dilog} \left( {\frac {-1+i-\sqrt {4+2\,i}}{1+i-\sqrt {4+2\,i}}}
+ \right) + \left( 1/5\,\sqrt {4+2\,i}-i/10\sqrt {4+2\,i} \right) {\it 
+dilog} \left( {\frac {-1+i+\sqrt {4+2\,i}}{1+i+\sqrt {4+2\,i}}}
+ \right) + \left( 1/5\,\sqrt {4-2\,i}+i/10\sqrt {4-2\,i} \right) {\it 
+dilog} \left( {\frac {1+i-\sqrt {4-2\,i}}{-1+i-\sqrt {4-2\,i}}}
+ \right) + \left( -1/5\,\sqrt {4-2\,i}-i/10\sqrt {4-2\,i} \right) {
+\it dilog} \left( {\frac {1+i+\sqrt {4-2\,i}}{-1+i+\sqrt {4-2\,i}}}
+ \right) + \left( 1/5\,\sqrt {4+2\,i}-i/10\sqrt {4+2\,i} \right) {\it 
+dilog} \left( {\frac {-2\,\sqrt {2}-1+i-\sqrt {4+2\,i}}{1+i-\sqrt {4+2
+\,i}}} \right) + \left( i/10\sqrt {4+2\,i}-1/5\,\sqrt {4+2\,i}
+ \right) {\it dilog} \left( {\frac {-2\,\sqrt {2}-1+i+\sqrt {4+2\,i}}{
+1+i+\sqrt {4+2\,i}}} \right) + \left( -1/5\,\sqrt {4-2\,i}-i/10\sqrt {
+4-2\,i} \right) {\it dilog} \left( {\frac {2\,\sqrt {2}+1+i-\sqrt {4-2
+\,i}}{-1+i-\sqrt {4-2\,i}}} \right) + \left( 1/5\,\sqrt {4-2\,i}+i/10
+\sqrt {4-2\,i} \right) {\it dilog} \left( {\frac {2\,\sqrt {2}+1+i+
+\sqrt {4-2\,i}}{-1+i+\sqrt {4-2\,i}}} \right) -{\frac { \left( \ln 
+ \left( -14\,\sqrt {2}-9\,\sqrt {5}\sqrt {-4+2\,\sqrt {5}}\sqrt {2}-6
+\,\sqrt {5}\sqrt {2}-20\,\sqrt {-4+2\,\sqrt {5}}\sqrt {2}+13\,\sqrt {5
+}\sqrt {-4+2\,\sqrt {5}}+9\,\sqrt {5}+29\,\sqrt {-4+2\,\sqrt {5}}+20
+ \right)  \right) ^{2}\sqrt {5}}{80}}
+$$Moment Function 
+ $$ m(x) = \int_{0}^{\ln  \left( 1+\sqrt {2} \right) }\!2\,{\frac {{x}^{r}
+ \left( \sinh \left( x \right) -1 \right) \cosh \left( x \right) \sinh
+ \left( x \right) }{-4\, \left( \cosh \left( x \right)  \right) ^{4}+8
+\,\sinh \left( x \right)  \left( \cosh \left( x \right)  \right) ^{2}-
+4\,\sinh \left( x \right) +3}}\,{\rm d}x
+$$ Moment Generating Function 
+ $$-2\,\int_{0}^{\ln  \left( 1+\sqrt {2} \right) }\!{\frac {{{\rm e}^{tx}
+}\sinh \left( x \right) \cosh \left( x \right)  \left( \sinh \left( x
+ \right) -1 \right) }{4\, \left( \cosh \left( x \right)  \right) ^{4}-
+8\,\sinh \left( x \right)  \left( \cosh \left( x \right)  \right) ^{2}
++4\,\sinh \left( x \right) -3}}\,{\rm d}x_{{1}}
+$$-------------------------------------------------------------------------------------------  \\$$t\mapsto  \left( \tanh \left( t+1 \right)  \right) ^{-1}
+$$Probability Distribution Function 
+$$  f(x)={\frac {-2+2\,{\rm arctanh} \left({x}^{-1}\right)}{ \left(  \left( 
+{\rm arctanh} \left({x}^{-1}\right) \right) ^{2}-2\,{\rm arctanh} 
+\left({x}^{-1}\right)+2 \right) ^{2} \left( {x}^{2}-1 \right) }}
+$$Cumulative Distribution Function  
+ $$F(x)= \left(  \left( {\rm arctanh} \left({x}^{-1}\right) \right) ^{2}-2\,
+{\rm arctanh} \left({x}^{-1}\right)+2 \right) ^{-1}
+$$ Inverse Cumulative Distribution Function 
+  $$F^{-1} = [s\mapsto  \left( \tanh \left( {\frac {s+\sqrt {-s \left( s-1 \right) 
+}}{s}} \right)  \right) ^{-1}]
+$$Survivor Function 
+ $$ S(x)=1- \left(  \left( {\rm arctanh} \left({x}^{-1}\right) \right) ^{2}-2\,
+{\rm arctanh} \left({x}^{-1}\right)+2 \right) ^{-1}
+$$ Hazard Function 
+ $$ h(x)=2\,{\frac {1}{ \left( -1+{\rm arctanh} \left({x}^{-1}\right) \right) 
+ \left( {x}^{2}-1 \right)  \left(  \left( {\rm arctanh} \left({x}^{-1}
+\right) \right) ^{2}-2\,{\rm arctanh} \left({x}^{-1}\right)+2 \right) 
+}}
+$$Mean 
+ $$ mu=2\,\int_{1}^{{\frac {{{\rm e}^{2}}+1}{{{\rm e}^{2}}-1}}}\!{\frac {x
+ \left( -1+{\rm arctanh} \left({x}^{-1}\right) \right) }{ \left( 
+ \left( {\rm arctanh} \left({x}^{-1}\right) \right) ^{2}-2\,
+{\rm arctanh} \left({x}^{-1}\right)+2 \right) ^{2} \left( {x}^{2}-1
+ \right) }}\,{\rm d}x
+$$ Variance 
+ $$ sigma^2 = 2\,\int_{1}^{{\frac {{{\rm e}^{2}}+1}{{{\rm e}^{2}}-1}}}\!{\frac {{x}^
+{2} \left( -1+{\rm arctanh} \left({x}^{-1}\right) \right) }{ \left( 
+ \left( {\rm arctanh} \left({x}^{-1}\right) \right) ^{2}-2\,
+{\rm arctanh} \left({x}^{-1}\right)+2 \right) ^{2} \left( {x}^{2}-1
+ \right) }}\,{\rm d}x-4\, \left( \int_{1}^{{\frac {{{\rm e}^{2}}+1}{{
+{\rm e}^{2}}-1}}}\!{\frac {x \left( -1+{\rm arctanh} \left({x}^{-1}
+\right) \right) }{ \left(  \left( {\rm arctanh} \left({x}^{-1}\right)
+ \right) ^{2}-2\,{\rm arctanh} \left({x}^{-1}\right)+2 \right) ^{2}
+ \left( {x}^{2}-1 \right) }}\,{\rm d}x \right) ^{2}
+$$Moment Function 
+ $$ m(x) = \int_{1}^{{\frac {{\rm e}+{{\rm e}^{-1}}}{{\rm e}-{{\rm e}^{-1}}}}}\!{
+\frac {{x}^{r} \left( -2+2\,{\rm arctanh} \left({x}^{-1}\right)
+ \right) }{ \left(  \left( {\rm arctanh} \left({x}^{-1}\right)
+ \right) ^{2}-2\,{\rm arctanh} \left({x}^{-1}\right)+2 \right) ^{2}
+ \left( {x}^{2}-1 \right) }}\,{\rm d}x
+$$ Moment Generating Function 
+ $$2\,\int_{1}^{{\frac {{{\rm e}^{2}}+1}{{{\rm e}^{2}}-1}}}\!{\frac {{
+{\rm e}^{tx}} \left( -1+{\rm arctanh} \left({x}^{-1}\right) \right) }{
+ \left(  \left( {\rm arctanh} \left({x}^{-1}\right) \right) ^{2}-2\,
+{\rm arctanh} \left({x}^{-1}\right)+2 \right) ^{2} \left( {x}^{2}-1
+ \right) }}\,{\rm d}x_{{1}}
+$$-------------------------------------------------------------------------------------------  \\$$t\mapsto  \left( \sinh \left( t+1 \right)  \right) ^{-1}
+$$Probability Distribution Function 
+$$  f(x)=2\,{\frac {-1+{\rm arcsinh} \left({x}^{-1}\right)}{\sqrt {{x}^{2}+1}
+ \left(  \left( {\rm arcsinh} \left({x}^{-1}\right) \right) ^{2}-2\,
+{\rm arcsinh} \left({x}^{-1}\right)+2 \right) ^{2} \left| x \right| }}
+$$Cumulative Distribution Function  
+ $$F(x)= \left(  \left( \ln  \left( \sqrt {{x}^{2}+1}+1 \right)  \right) ^{2}-
+2\,\ln  \left( \sqrt {{x}^{2}+1}+1 \right) \ln  \left( x \right) +
+ \left( \ln  \left( x \right)  \right) ^{2}-2\,\ln  \left( \sqrt {{x}^
+{2}+1}+1 \right) +2\,\ln  \left( x \right) +2 \right) ^{-1}
+$$ Inverse Cumulative Distribution Function 
+  $$F^{-1} = []
+$$Survivor Function 
+ $$ S(x)={\frac { \left( \ln  \left( \sqrt {{x}^{2}+1}+1 \right)  \right) ^{2}-
+2\,\ln  \left( \sqrt {{x}^{2}+1}+1 \right) \ln  \left( x \right) +
+ \left( \ln  \left( x \right)  \right) ^{2}-2\,\ln  \left( \sqrt {{x}^
+{2}+1}+1 \right) +2\,\ln  \left( x \right) +1}{ \left( \ln  \left( 
+\sqrt {{x}^{2}+1}+1 \right)  \right) ^{2}-2\,\ln  \left( \sqrt {{x}^{2
+}+1}+1 \right) \ln  \left( x \right) + \left( \ln  \left( x \right) 
+ \right) ^{2}-2\,\ln  \left( \sqrt {{x}^{2}+1}+1 \right) +2\,\ln 
+ \left( x \right) +2}}
+$$ Hazard Function 
+ $$ h(x)=2\,{\frac { \left( -1+{\rm arcsinh} \left({x}^{-1}\right) \right) 
+ \left(  \left( \ln  \left( \sqrt {{x}^{2}+1}+1 \right)  \right) ^{2}-
+2\,\ln  \left( \sqrt {{x}^{2}+1}+1 \right) \ln  \left( x \right) +
+ \left( \ln  \left( x \right)  \right) ^{2}-2\,\ln  \left( \sqrt {{x}^
+{2}+1}+1 \right) +2\,\ln  \left( x \right) +2 \right) }{\sqrt {{x}^{2}
++1} \left(  \left( {\rm arcsinh} \left({x}^{-1}\right) \right) ^{2}-2
+\,{\rm arcsinh} \left({x}^{-1}\right)+2 \right) ^{2} \left| x \right| 
+ \left(  \left( \ln  \left( \sqrt {{x}^{2}+1}+1 \right)  \right) ^{2}-
+2\,\ln  \left( \sqrt {{x}^{2}+1}+1 \right) \ln  \left( x \right) +
+ \left( \ln  \left( x \right)  \right) ^{2}-2\,\ln  \left( \sqrt {{x}^
+{2}+1}+1 \right) +2\,\ln  \left( x \right) +1 \right) }}
+$$Mean 
+ $$ mu=2\,\int_{0}^{2\,{\frac {{\rm e}}{{{\rm e}^{2}}-1}}}\!{\frac {-1+
+{\rm arcsinh} \left({x}^{-1}\right)}{\sqrt {{x}^{2}+1} \left(  \left( 
+{\rm arcsinh} \left({x}^{-1}\right) \right) ^{2}-2\,{\rm arcsinh} 
+\left({x}^{-1}\right)+2 \right) ^{2}}}\,{\rm d}x
+$$ Variance 
+ $$ sigma^2 = 2\,\int_{0}^{2\,{\frac {{\rm e}}{{{\rm e}^{2}}-1}}}\!{\frac {x \left( 
+-1+{\rm arcsinh} \left({x}^{-1}\right) \right) }{\sqrt {{x}^{2}+1}
+ \left(  \left( {\rm arcsinh} \left({x}^{-1}\right) \right) ^{2}-2\,
+{\rm arcsinh} \left({x}^{-1}\right)+2 \right) ^{2}}}\,{\rm d}x-4\,
+ \left( \int_{0}^{2\,{\frac {{\rm e}}{{{\rm e}^{2}}-1}}}\!{\frac {-1+
+{\rm arcsinh} \left({x}^{-1}\right)}{\sqrt {{x}^{2}+1} \left(  \left( 
+{\rm arcsinh} \left({x}^{-1}\right) \right) ^{2}-2\,{\rm arcsinh} 
+\left({x}^{-1}\right)+2 \right) ^{2}}}\,{\rm d}x \right) ^{2}
+$$Moment Function 
+ $$ m(x) = \int_{0}^{-2\, \left( -{\rm e}+{{\rm e}^{-1}} \right) ^{-1}}\!2\,{
+\frac {{x}^{r} \left( -1+{\rm arcsinh} \left({x}^{-1}\right) \right) 
+}{\sqrt {{x}^{2}+1} \left(  \left( {\rm arcsinh} \left({x}^{-1}\right)
+ \right) ^{2}-2\,{\rm arcsinh} \left({x}^{-1}\right)+2 \right) ^{2}
+ \left| x \right| }}\,{\rm d}x
+$$ Moment Generating Function 
+ $$2\,\int_{0}^{2\,{\frac {{\rm e}}{{{\rm e}^{2}}-1}}}\!{\frac {{{\rm e}^
+{tx}} \left( -1+{\rm arcsinh} \left({x}^{-1}\right) \right) }{\sqrt {{
+x}^{2}+1} \left(  \left( {\rm arcsinh} \left({x}^{-1}\right) \right) ^
+{2}-2\,{\rm arcsinh} \left({x}^{-1}\right)+2 \right) ^{2}x}}\,{\rm d}x
+_{{1}}
+$$-------------------------------------------------------------------------------------------  \\$$t\mapsto  \left( {\rm arcsinh} \left(t+1\right) \right) ^{-1}
+$$Probability Distribution Function 
+$$  f(x)=-2\,{\frac {\cosh \left( {x}^{-1} \right)  \left( -1+\sinh \left( {x}^
+{-1} \right)  \right) }{{x}^{2} \left( - \left( \cosh \left( {x}^{-1}
+ \right)  \right) ^{4}+4\,\sinh \left( {x}^{-1} \right)  \left( \cosh
+ \left( {x}^{-1} \right)  \right) ^{2}-6\, \left( \cosh \left( {x}^{-1
+} \right)  \right) ^{2}+4\,\sinh \left( {x}^{-1} \right) +3 \right) }}
+$$Cumulative Distribution Function  
+ $$F(x)=4\,{1{{\rm e}^{2\,{x}^{-1}}} \left( {{\rm e}^{4\,{x}^{-1}}}-4\,{
+{\rm e}^{3\,{x}^{-1}}}+6\,{{\rm e}^{2\,{x}^{-1}}}+4\,{{\rm e}^{{x}^{-1
+}}}+1 \right) ^{-1}}
+$$ Inverse Cumulative Distribution Function 
+  $$F^{-1} = [s\mapsto  \left( \ln  \left( {\it RootOf} \left( s{{\it \_Z}}^{4}-4\,
+s{{\it \_Z}}^{3}+ \left( 6\,s-4 \right) {{\it \_Z}}^{2}+4\,s{\it \_Z}+
+s \right)  \right)  \right) ^{-1}]
+$$Survivor Function 
+ $$ S(x)={1 \left( {{\rm e}^{4\,{x}^{-1}}}-4\,{{\rm e}^{3\,{x}^{-1}}}+2\,{
+{\rm e}^{2\,{x}^{-1}}}+4\,{{\rm e}^{{x}^{-1}}}+1 \right)  \left( {
+{\rm e}^{4\,{x}^{-1}}}-4\,{{\rm e}^{3\,{x}^{-1}}}+6\,{{\rm e}^{2\,{x}^
+{-1}}}+4\,{{\rm e}^{{x}^{-1}}}+1 \right) ^{-1}}
+$$ Hazard Function 
+ $$ h(x)=-2\,{\frac { \left( -1+\sinh \left( {x}^{-1} \right)  \right) \cosh
+ \left( {x}^{-1} \right) }{{x}^{2} \left( - \left( \cosh \left( {x}^{-
+1} \right)  \right) ^{4}+4\,\sinh \left( {x}^{-1} \right)  \left( 
+\cosh \left( {x}^{-1} \right)  \right) ^{2}-6\, \left( \cosh \left( {x
+}^{-1} \right)  \right) ^{2}+4\,\sinh \left( {x}^{-1} \right) +3
+ \right) } \left( {{\rm e}^{4\,{x}^{-1}}}-4\,{{\rm e}^{3\,{x}^{-1}}}+6
+\,{{\rm e}^{2\,{x}^{-1}}}+4\,{{\rm e}^{{x}^{-1}}}+1 \right)  \left( {
+{\rm e}^{4\,{x}^{-1}}}-4\,{{\rm e}^{3\,{x}^{-1}}}+2\,{{\rm e}^{2\,{x}^
+{-1}}}+4\,{{\rm e}^{{x}^{-1}}}+1 \right) ^{-1}}
+$$Mean 
+ $$ mu=2\,\int_{0}^{ \left( \ln  \left( 1+\sqrt {2} \right)  \right) ^{-1}}\!
+{\frac {\cosh \left( {x}^{-1} \right)  \left( -1+\sinh \left( {x}^{-1}
+ \right)  \right) }{x \left(  \left( \cosh \left( {x}^{-1} \right) 
+ \right) ^{4}-4\,\sinh \left( {x}^{-1} \right)  \left( \cosh \left( {x
+}^{-1} \right)  \right) ^{2}+6\, \left( \cosh \left( {x}^{-1} \right) 
+ \right) ^{2}-4\,\sinh \left( {x}^{-1} \right) -3 \right) }}\,{\rm d}x
+$$ Variance 
+ $$ sigma^2 = 2\,\int_{0}^{ \left( \ln  \left( 1+\sqrt {2} \right)  \right) ^{-1}}\!
+{\frac {\cosh \left( {x}^{-1} \right)  \left( -1+\sinh \left( {x}^{-1}
+ \right)  \right) }{ \left( \cosh \left( {x}^{-1} \right)  \right) ^{4
+}-4\,\sinh \left( {x}^{-1} \right)  \left( \cosh \left( {x}^{-1}
+ \right)  \right) ^{2}+6\, \left( \cosh \left( {x}^{-1} \right) 
+ \right) ^{2}-4\,\sinh \left( {x}^{-1} \right) -3}}\,{\rm d}x-4\,
+ \left( \int_{0}^{ \left( \ln  \left( 1+\sqrt {2} \right)  \right) ^{-
+1}}\!{\frac {\cosh \left( {x}^{-1} \right)  \left( -1+\sinh \left( {x}
+^{-1} \right)  \right) }{x \left(  \left( \cosh \left( {x}^{-1}
+ \right)  \right) ^{4}-4\,\sinh \left( {x}^{-1} \right)  \left( \cosh
+ \left( {x}^{-1} \right)  \right) ^{2}+6\, \left( \cosh \left( {x}^{-1
+} \right)  \right) ^{2}-4\,\sinh \left( {x}^{-1} \right) -3 \right) }}
+\,{\rm d}x \right) ^{2}
+$$Moment Function 
+ $$ m(x) = \int_{0}^{ \left( \ln  \left( 1+\sqrt {2} \right)  \right) ^{-1}}\!-2
+\,{\frac {{x}^{r} \left( -1+\sinh \left( {x}^{-1} \right)  \right) 
+\cosh \left( {x}^{-1} \right) }{{x}^{2} \left( - \left( \cosh \left( {
+x}^{-1} \right)  \right) ^{4}+4\,\sinh \left( {x}^{-1} \right) 
+ \left( \cosh \left( {x}^{-1} \right)  \right) ^{2}-6\, \left( \cosh
+ \left( {x}^{-1} \right)  \right) ^{2}+4\,\sinh \left( {x}^{-1}
+ \right) +3 \right) }}\,{\rm d}x
+$$ Moment Generating Function 
+ $$2\,\int_{0}^{ \left( \ln  \left( 1+\sqrt {2} \right)  \right) ^{-1}}\!
+{\frac {{{\rm e}^{tx}}\cosh \left( {x}^{-1} \right)  \left( -1+\sinh
+ \left( {x}^{-1} \right)  \right) }{{x}^{2} \left(  \left( \cosh
+ \left( {x}^{-1} \right)  \right) ^{4}-4\,\sinh \left( {x}^{-1}
+ \right)  \left( \cosh \left( {x}^{-1} \right)  \right) ^{2}+6\,
+ \left( \cosh \left( {x}^{-1} \right)  \right) ^{2}-4\,\sinh \left( {x
+}^{-1} \right) -3 \right) }}\,{\rm d}x_{{1}}
+$$-------------------------------------------------------------------------------------------  \\$$t\mapsto  \left( {\rm csch} \left(t\right) \right) ^{-1}+1
+$$Probability Distribution Function 
+$$  f(x)=2\,{\frac {{\rm arccsch} \left( \left( x-1 \right) ^{-1}\right)}{
+\sqrt {{x}^{2}-2\,x+2} \left(  \left( {\rm arccsch} \left( \left( x-1
+ \right) ^{-1}\right) \right) ^{2}+1 \right) ^{2}}}
+$$Cumulative Distribution Function  
+ $$F(x)=2\,\int_{1}^{x}\!{\frac {{\rm arccsch} \left( \left( t-1 \right) ^{-1}
+\right)}{\sqrt {{t}^{2}-2\,t+2} \left(  \left( {\rm arccsch} \left(
+ \left( t-1 \right) ^{-1}\right) \right) ^{2}+1 \right) ^{2}}}
+\,{\rm d}t
+$$ Inverse Cumulative Distribution Function 
+
+Survivor Function 
+ $$ S(x)=1-2\,\int_{1}^{x}\!{\frac {{\rm arccsch} \left( \left( t-1 \right) ^{-
+1}\right)}{\sqrt {{t}^{2}-2\,t+2} \left(  \left( {\rm arccsch} \left(
+ \left( t-1 \right) ^{-1}\right) \right) ^{2}+1 \right) ^{2}}}
+\,{\rm d}t
+$$ Hazard Function 
+ $$ h(x)=-2\,{\frac {{\rm arccsch} \left( \left( x-1 \right) ^{-1}\right)}{
+\sqrt {{x}^{2}-2\,x+2} \left(  \left( {\rm arccsch} \left( \left( x-1
+ \right) ^{-1}\right) \right) ^{2}+1 \right) ^{2}} \left( -1+2\,\int_{
+1}^{x}\!{\frac {{\rm arccsch} \left( \left( t-1 \right) ^{-1}\right)}{
+\sqrt {{t}^{2}-2\,t+2} \left(  \left( {\rm arccsch} \left( \left( t-1
+ \right) ^{-1}\right) \right) ^{2}+1 \right) ^{2}}}\,{\rm d}t \right) 
+^{-1}}
+$$Mean 
+ $$ mu=\infty 
+$$ Variance 
+ $$ sigma^2 = {\it undefined}
+$$Moment Function 
+ $$ m(x) = \infty 
+$$ Moment Generating Function 
+ $$\int_{1}^{\infty }\!2\,{\frac {{{\rm e}^{tx}}{\rm arccsch} \left(
+ \left( x-1 \right) ^{-1}\right)}{\sqrt {{x}^{2}-2\,x+2} \left( 
+ \left( {\rm arccsch} \left( \left( x-1 \right) ^{-1}\right) \right) ^
+{2}+1 \right) ^{2}}}\,{\rm d}x_{{1}}
+$$-------------------------------------------------------------------------------------------  \\$$t\mapsto \tanh \left( {t}^{-1} \right) 
+$$Probability Distribution Function 
+$$  f(x)=-2\,{\frac {{\rm arctanh} \left(x\right)}{ \left(  \left( 
+{\rm arctanh} \left(x\right) \right) ^{2}+1 \right) ^{2} \left( {x}^{2
+}-1 \right) }}
+$$Cumulative Distribution Function  
+ $$F(x)={\frac { \left( {\rm arctanh} \left(x\right) \right) ^{2}}{ \left( 
+{\rm arctanh} \left(x\right) \right) ^{2}+1}}
+$$ Inverse Cumulative Distribution Function 
+
+$$[s\mapsto -\tanh \left( {\frac {\sqrt {- \left( s-1 \right) s}}{s-1}}
+ \right) ]
+$$Survivor Function 
+ $$ S(x)= \left(  \left( {\rm arctanh} \left(x\right) \right) ^{2}+1 \right) ^{
+-1}
+$$ Hazard Function 
+ $$ h(x)=-2\,{\frac {{\rm arctanh} \left(x\right)}{ \left(  \left( 
+{\rm arctanh} \left(x\right) \right) ^{2}+1 \right)  \left( {x}^{2}-1
+ \right) }}
+$$Mean 
+ $$ mu=-2\,\int_{0}^{1}\!{\frac {x{\rm arctanh} \left(x\right)}{ \left( 
+ \left( {\rm arctanh} \left(x\right) \right) ^{2}+1 \right) ^{2}
+ \left( {x}^{2}-1 \right) }}\,{\rm d}x
+$$ Variance 
+ $$ sigma^2 = -2\,\int_{0}^{1}\!{\frac {{x}^{2}{\rm arctanh} \left(x\right)}{
+ \left(  \left( {\rm arctanh} \left(x\right) \right) ^{2}+1 \right) ^{
+2} \left( {x}^{2}-1 \right) }}\,{\rm d}x-4\, \left( \int_{0}^{1}\!{
+\frac {x{\rm arctanh} \left(x\right)}{ \left(  \left( {\rm arctanh} 
+\left(x\right) \right) ^{2}+1 \right) ^{2} \left( {x}^{2}-1 \right) }}
+\,{\rm d}x \right) ^{2}
+$$Moment Function 
+ $$ m(x) = \int_{0}^{1}\!-2\,{\frac {{x}^{r}{\rm arctanh} \left(x\right)}{
+ \left(  \left( {\rm arctanh} \left(x\right) \right) ^{2}+1 \right) ^{
+2} \left( {x}^{2}-1 \right) }}\,{\rm d}x
+$$ Moment Generating Function 
+ $$-2\,\int_{0}^{1}\!{\frac {{{\rm e}^{tx}}{\rm arctanh} \left(x\right)}{
+ \left(  \left( {\rm arctanh} \left(x\right) \right) ^{2}+1 \right) ^{
+2} \left( {x}^{2}-1 \right) }}\,{\rm d}x_{{1}}
+$$-------------------------------------------------------------------------------------------  \\$$t\mapsto {\rm csch} \left({t}^{-1}\right)
+$$Probability Distribution Function 
+$$  f(x)=2\,{\frac {{\rm arccsch} \left(x\right)}{\sqrt {{x}^{2}+1} \left( 
+ \left( {\rm arccsch} \left(x\right) \right) ^{2}+1 \right) ^{2}
+ \left| x \right| }}
+$$Cumulative Distribution Function  
+ $$F(x)=2\,\int_{0}^{x}\!{\frac {{\rm arccsch} \left(t\right)}{\sqrt {{t}^{2}+
+1} \left(  \left( {\rm arccsch} \left(t\right) \right) ^{2}+1 \right) 
+^{2} \left| t \right| }}\,{\rm d}t
+$$ Inverse Cumulative Distribution Function 
+
+Survivor Function 
+ $$ S(x)=1-2\,\int_{0}^{x}\!{\frac {{\rm arccsch} \left(t\right)}{\sqrt {{t}^{2
+}+1} \left(  \left( {\rm arccsch} \left(t\right) \right) ^{2}+1
+ \right) ^{2} \left| t \right| }}\,{\rm d}t
+$$ Hazard Function 
+ $$ h(x)=-2\,{\frac {{\rm arccsch} \left(x\right)}{\sqrt {{x}^{2}+1} \left( 
+ \left( {\rm arccsch} \left(x\right) \right) ^{2}+1 \right) ^{2}
+ \left| x \right| } \left( -1+2\,\int_{0}^{x}\!{\frac {{\rm arccsch} 
+\left(t\right)}{\sqrt {{t}^{2}+1} \left(  \left( {\rm arccsch} \left(t
+\right) \right) ^{2}+1 \right) ^{2} \left| t \right| }}\,{\rm d}t
+ \right) ^{-1}}
+$$Mean 
+ $$ mu=\int_{0}^{\infty }\!2\,{\frac {{\rm arccsch} \left(x\right)}{\sqrt {{x
+}^{2}+1} \left(  \left( {\rm arccsch} \left(x\right) \right) ^{2}+1
+ \right) ^{2}}}\,{\rm d}x
+$$ Variance 
+ $$ sigma^2 = \infty - \left( \int_{0}^{\infty }\!2\,{\frac {{\rm arccsch} \left(x
+\right)}{\sqrt {{x}^{2}+1} \left(  \left( {\rm arccsch} \left(x\right)
+ \right) ^{2}+1 \right) ^{2}}}\,{\rm d}x \right) ^{2}
+$$Moment Function 
+ $$ m(x) = \int_{0}^{\infty }\!2\,{\frac {{x}^{r}{\rm arccsch} \left(x\right)}{
+\sqrt {{x}^{2}+1} \left(  \left( {\rm arccsch} \left(x\right) \right) 
+^{2}+1 \right) ^{2} \left| x \right| }}\,{\rm d}x
+$$ Moment Generating Function 
+ $$\int_{0}^{\infty }\!2\,{\frac {{{\rm e}^{tx}}{\rm arccsch} \left(x
+\right)}{\sqrt {{x}^{2}+1} \left(  \left( {\rm arccsch} \left(x\right)
+ \right) ^{2}+1 \right) ^{2}x}}\,{\rm d}x_{{1}}
+$$-------------------------------------------------------------------------------------------  \\$$t\mapsto {\rm arccsch} \left({t}^{-1}\right)
+$$Probability Distribution Function 
+$$  f(x)=2\,{\frac {\sinh \left( x \right) }{ \left( \cosh \left( x \right) 
+ \right) ^{3}}}
+$$Cumulative Distribution Function  
+ $$F(x)={\frac {{{\rm e}^{4\,x}}-2\,{{\rm e}^{2\,x}}+1}{{{\rm e}^{4\,x}}+2\,{
+{\rm e}^{2\,x}}+1}}
+$$ Inverse Cumulative Distribution Function 
+
+$$[s\mapsto 1/2\,\ln  \left( -{\frac {s+1+2\,\sqrt {s}}{-1+s}} \right) ]
+$$Survivor Function 
+ $$ S(x)=4\,{\frac {{{\rm e}^{2\,x}}}{{{\rm e}^{4\,x}}+2\,{{\rm e}^{2\,x}}+1}}
+$$ Hazard Function 
+ $$ h(x)=1/2\,{\frac {\sinh \left( x \right)  \left( {{\rm e}^{2\,x}}+2+{
+{\rm e}^{-2\,x}} \right) }{ \left( \cosh \left( x \right)  \right) ^{3
+}}}
+$$Mean 
+ $$ mu=1
+$$ Variance 
+ $$ sigma^2 = 2\,\ln  \left( 2 \right) -1
+$$Moment Function 
+ $$ m(x) = \int_{0}^{\infty }\!2\,{\frac {{x}^{r}\sinh \left( x \right) }{
+ \left( \cosh \left( x \right)  \right) ^{3}}}\,{\rm d}x
+$$ Moment Generating Function 
+ $$\int_{0}^{\infty }\!2\,{\frac {{{\rm e}^{tx}}\sinh \left( x \right) }{
+ \left( \cosh \left( x \right)  \right) ^{3}}}\,{\rm d}x_{{1}}
+$$\end{document}

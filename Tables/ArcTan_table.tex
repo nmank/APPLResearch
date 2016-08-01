@@ -1,0 +1,94 @@
+\documentclass[10pt]{article}
+ 
+\usepackage[margin=1in]{geometry} 
+\usepackage{amsmath,amsthm,amssymb, graphicx, multicol, array}
+\usepackage{amsfonts}
+\usepackage{multirow}
+\usepackage{pdflscape}
+
+ 
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+ 
+\newenvironment{problem}[2][Problem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+\begin{document}
+\begin{landscape} 
+
+\center{ArcTan Distribution} \\
+$$f(x) = \frac{a}{\text{arctan}(ab)+\pi/2)(1+a^2(x-b)^2} \qquad x,a,b>0$$
+
+
+\begin{tabular}{|c|c||c c c c c c c c c c l|}
+
+\hline 
+& General &  \multicolumn{11}{|c|}{Example: ArcTan(2,2)}\\
+
+Transformation & PDF &  PDF & CDF & HF & IDF & $\mu$ & $\sigma^2$ & MF & MGF & HF Shape & Support & Comment\\
+\hline
+$x^2$ & \checkmark & \checkmark & & \checkmark & \checkmark & $\infty$ & \checkmark & $\partial$ & $\partial$ & UBT & $0, \infty$ & \\
+
+$\sqrt{x}$ & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark &  \checkmark & $\infty$ & $\partial$ & $\partial$ & UBT & $0, \infty$ &  \\
+
+$x^{-1}$ & \checkmark & \checkmark & \checkmark & $\infty$ & \checkmark & \checkmark & \checkmark & $\partial$ & $\partial$ & UBT & $0, \infty$ &  \\
+
+$\arctan(x)$ & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & $\partial$ & $\partial$ & IFR & $0,\pi/2$ & HF has a peak \\
+
+$\text{e}^x$ & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & $\infty$ & \checkmark & $\infty$ & $\partial$ & UBT & $1,\infty$ & Min and Max in HF \\
+
+$\ln(x)$ & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & $\partial$ & $\partial$ & $\partial$ & UBT  & $-\infty,\infty$ & \\
+
+$\text{e}^{-x}$ & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & $\partial$ & BT & $0,1$ & 1 Max 2 Min in HF \\
+
+$-\ln(x)$ & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & $\partial$ & $\partial$ & $\partial$ & DFR & $-\infty,\infty$ &  \\
+
+$\ln(x+1)$ & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & $\partial$ & $\partial$ & $\partial$ & $\partial$ & UBT & $0, \infty$ &   \\
+
+$1/\ln(x+2)$ & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & $\partial$ & $\partial$ & $\partial$ & $\partial$ & BT & $0,1/\ln(2)$ & HF has peak  \\
+
+$\tanh(x)$ & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & $\partial$ & $\partial$ & $\partial$ & $\partial$ & IFR &$0,1$ &   \\
+
+$\sinh(x)$ & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & $\infty$ & \checkmark & $\infty$ & $\partial$ & UBT & $0, \infty$ &  \\
+
+$\text{arcsinh}(x)$ & \checkmark & \checkmark & \checkmark & \checkmark &  & &  & $\partial$ & $\partial$ & UBT & $0, \infty$ &  \\
+
+$\text{csch}(x+1)$ & \checkmark & \checkmark & & & & & & & & &$0,2/(-\text{e}+\text{e}^{-1})$ &  \\
+
+$\text{arccsch}(x+1)$ & \checkmark & &  & & & & & & & BT &$0,\ln(1+\sqrt{2})$ & HF has peak \\
+
+$1/\tanh(x+1)$ & \checkmark & \checkmark & \checkmark &  \checkmark & \checkmark  &  $\partial$ & $\partial$ & $\partial$ & $\partial$ &  & $1,(\text{e}+\text{e}^{-1})/(\text{e}-\text{e}^{-1})$ &   \\
+
+$1/\text{sinh(x+1)}$ & \checkmark & \checkmark & & & & & & & & & $2,2/(\text{e}-\text{e}^{-1})$ &  \\
+
+$1/\text{arcsinh}(x+1)$ & \checkmark & \checkmark & \checkmark & \checkmark &  & $\partial$ & $\partial$ & $\partial$ & $\partial$ & BT & $0,1/\ln(1+\sqrt{2})$ &  HF has peak\\
+
+$1/\text{csch}(x)+1$ & \checkmark & \checkmark & $\partial$ & $\partial$ & & $\partial$ & $\partial$ & $\partial$ & $\partial$ & UBT & $1,\infty$ &  \\
+
+$\text{tanh}(x^{-1})$ & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark &  $\partial$ & $\partial$ & $\partial$ & $\partial$ & BT & $0,1$ & HF has peak \\
+
+$\text{csch}(x^{-1})$ & \checkmark & \checkmark & $\partial$ & $\partial$ & & $\partial$ & $\partial$ & $\partial$ & $\partial$ &  & $1,\infty$ &   \\
+
+$\text{arccsch}(x^{-1})$ & \checkmark & \checkmark & \checkmark &  \checkmark & \checkmark & $\partial$ & $\partial$ & $\partial$ & $\partial$ & UBT & $0, \infty$ &  \\
+\hline
+\end{tabular}
+
+\vspace{.25in}
+\center{Legend} \\
+\vspace{.1in}
+\begin{tabular}{|c|c|}
+\hline
+Symbol & Meaning \\
+\hline
+$\checkmark$ & Exists, Closed Form \\
+$\partial$ & Exists, Not Closed Form \\
+$\varnothing$ & Not Possible \\
+ & Not Calculated \\
+\hline
+\end{tabular}
+
+\end{landscape}
+
+
+
+\end{document}

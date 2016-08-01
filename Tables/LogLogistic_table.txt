@@ -1,0 +1,96 @@
+\documentclass[10pt]{article}
+ 
+\usepackage[margin=1in]{geometry} 
+\usepackage{amsmath,amsthm,amssymb, graphicx, multicol, array}
+\usepackage{amsfonts}
+\usepackage{multirow}
+\usepackage{pdflscape}
+
+ 
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+ 
+\newenvironment{problem}[2][Problem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+\begin{document}
+\begin{landscape} 
+
+\center{Log Logistic Distribution} \\
+$$f(x) = \frac{\frac{\beta}{\alpha}(\frac{x}{\alpha})^{\beta - 1}}{1 + (\frac{x}{\alpha})^\beta}
+
+
+\begin{tabular}{|c|c||c c c c c c c c c c l|}
+
+\hline 
+& General &  \multicolumn{11}{|c|}{Example: Log Logistic (1,2)}\\
+
+Transformation & PDF &  PDF & CDF & HF & IDF & $\mu$ & $\sigma^2$ & MF & MGF & HF Shape & Support & Comment\\
+\hline
+$x^2$ &\checkmark&  \checkmark & \checkmark & \checkmark & \checkmark & \infty & U & \checkmark & \checkmark & DFR & $0, \infty$\\
+
+$\sqrt{x}$ &\checkmark& \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & UBT & $0,\infty$\\
+
+$x^{-1}$ &\checkmark& \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \infty & \checkmark & \partial & UBT & $0,\infty$ \\
+
+$\arctan(x)$ &\checkmark& \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & IFR & $0,\frac{\pi}{2}$\\
+
+$\text{e}^x$ &\checkmark& \checkmark & \checkmark & \checkmark & \checkmark & \infty & U & \infty & \partial & DFR & $1,\infty$\\
+
+$\ln(x)$ &\checkmark& \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \partial & \partial & IFR & $-\infty,\infty$\\
+
+$\text{e}^{-x}$ &\checkmark& \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \partial & IFR & $0,1$\\
+
+$-\ln(x)$ &\checkmark& \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \partial & \partial & IFR & $-\infty,\infty$\\
+
+$\ln(x+1)$ & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \partial & \partial & UBT & $0,\infty$\\
+
+$1/\ln(x+2)$ &\checkmark& \checkmark & \checkmark & \checkmark & \checkmark & \partial & \partial & \partial & $\partial$ & IFR & $0,\frac{1}{\text{ln(2)}}$\\
+
+$\tanh(x)$ &\checkmark& \checkmark & \checkmark & \checkmark & \checkmark & $\partial$ & $\partial$ & $\partial$ & $\partial$ & IFR & $0,1$\\
+
+$\sinh(x)$ &\checkmark& \checkmark & \checkmark & \checkmark & \checkmark & $\infty$ & $\varnothing$ & $\infty$ & $\partial$ & UBT & $0,\infty$\\
+
+$\text{arcsinh}(x)$ &\checkmark& \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & $\partial$ & $\partial$ & IFR & $0,\infty$\\ 
+
+$\text{csch}(x+1)$ & \checkmark & $\checkmark$ & $\partial$ & $\partial$ & & $\partial$ & $\partial$ & $\partial$ & $\partial$ & & $0,\frac{2}{e-e^{-1}}$\\ 
+
+$\text{arccsch}(x+1)$ &\checkmark& \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & $\checkmark & $\partial$ & $\partial$ & IFR & $0,\text{arcsinh}(1)$\\
+
+$1/\tanh(x+1)$ &\checkmark& \checkmark & \checkmark & \checkmark & \checkmark & $\partial$ & $\partial$ & $\partial$ & $\partial$ & IFR & $1,\frac{e+e^{-1}}{e-e^{-1}}$\\
+
+$1/\text{sinh(x+1)}$ &\checkmark& \checkmark & \checkmark & \checkmark & & $\partial$ & $\partial$ & $\partial$ & $\partial$ & IFR & $0,\frac{2}{e-e^{-1}}$\\
+
+$1/\text{arcsinh}(x+1)$ &\checkmark& \checkmark & \checkmark & \checkmark &$\checkmark$&$\partial$&$\partial$&$\partial$&$\partial$& IFR & $0,\frac{1}{\text{ln}(1+\sqrt{2})}$\\
+
+$1/\text{csch}(x)+1$ &\checkmark& \checkmark &$\partial$&$\partial$&&$\infty$&$U$&$\infty$&$\partial$&UBT& $1,\infty$\\
+
+$\text{tanh}(x^{-1})$ &\checkmark& \checkmark & \checkmark & \checkmark & \checkmark &$\partial$&$\partial$&$\partial$&$\partial$& IFR &  $0,1$ \\
+
+$\text{csch}(x^{-1})$ &\checkmark& \checkmark &$\partial$&$\partial$&&$\partial$&$\partial$&$\partial$&$\partial$&  & $0,\infty$\\
+
+$\text{arccsch}(x^{-1})$ &\checkmark& \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark &$\partial$&$\partial$& IFR & $0,\infty)$\\
+
+\hline
+\end{tabular}
+
+
+\vspace{.25in}
+\center{Legend} \\
+\vspace{.1in}
+\begin{tabular}{|c|c|}
+\hline
+Symbol & Meaning \\
+\hline
+$\checkmark$ & Exists, Closed Form \\
+$\partial$ & Exists, Not Closed Form \\
+$\emptyset$ & Not Possible \\
+ & Not Calculated \\
+\hline
+\end{tabular}
+
+\end{landscape}
+
+
+
+\end{document}

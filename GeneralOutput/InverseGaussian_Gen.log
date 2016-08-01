@@ -1,0 +1,267 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.16)  1 AUG 2016 10:04
+entering extended mode
+**./InverseGaussian_Gen.tex
+(InverseGaussian_Gen.tex
+LaTeX2e <2015/10/01> patch level 2
+Babel <3.9n> and hyphenation patterns for 69 languages loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks14
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+No file InverseGaussian_Gen.aux.
+\openout1 = `InverseGaussian_Gen.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Try loading font information for U+msa on input line 6.
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 6.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--28
+
+ []
+
+
+Overfull \hbox (12.39319pt too wide) detected at line 37
+\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 ) = 1\OML/
+cmm/m/it/12 =\OT1/cmr/m/n/12 2 [] 0 \OML/cmm/m/it/12 < x < =\OT1/cmr/m/n/12 2
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+
+ []
+
+[1
+
+{C:/Users/Nate/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 44--44
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
+
+ []
+
+
+Overfull \hbox (48.50087pt too wide) detected at line 73
+\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 ) = 1\OML/
+cmm/m/it/12 =\OT1/cmr/m/n/12 2 [] 0 \OML/cmm/m/it/12 < x < \OMS/cmsy/m/n/12 1
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+
+ []
+
+
+Overfull \hbox (235.08257pt too wide) detected at line 83
+\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 ) = 1\OML/
+cmm/m/it/12 =\OT1/cmr/m/n/12 2 [] 0 \OML/cmm/m/it/12 < x < [][]
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 83--83
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
+
+ []
+
+
+Overfull \hbox (12.55768pt too wide) detected at line 100
+\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 ) = 1\OML/
+cmm/m/it/12 =\OT1/cmr/m/n/12 2 [] 0 \OML/cmm/m/it/12 < x < \OMS/cmsy/m/n/12 1
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+
+ []
+
+
+Overfull \hbox (29.13322pt too wide) detected at line 109
+\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 ) = 1\OML/
+cmm/m/it/12 =\OT1/cmr/m/n/12 2 [] 0 \OML/cmm/m/it/12 < x < \OMS/cmsy/m/n/12 1
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--109
+
+ []
+
+
+Overfull \hbox (57.50928pt too wide) detected at line 118
+\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 ) = 1\OML/
+cmm/m/it/12 =\OT1/cmr/m/n/12 2 [] 0 \OML/cmm/m/it/12 < x < \OT1/cmr/m/n/12 2  [
+][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
+
+ []
+
+
+Overfull \hbox (119.5919pt too wide) detected at line 129
+\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 ) = 1\OML/
+cmm/m/it/12 =\OT1/cmr/m/n/12 2 [] 0 \OML/cmm/m/it/12 < x < [] []
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 129--129
+
+ []
+
+
+Overfull \hbox (59.24246pt too wide) detected at line 138
+\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 ) = 1\OML/
+cmm/m/it/12 =\OT1/cmr/m/n/12 2 [] 1 \OML/cmm/m/it/12 < x < []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
+
+ []
+
+
+Overfull \hbox (210.70984pt too wide) detected at line 148
+\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 ) = 1\OML/
+cmm/m/it/12 =\OT1/cmr/m/n/12 2 [] 0 \OML/cmm/m/it/12 < x < \OT1/cmr/m/n/12 2  [
+][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--148
+
+ []
+
+
+Overfull \hbox (132.28612pt too wide) detected at line 157
+\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 ) = 1\OML/
+cmm/m/it/12 =\OT1/cmr/m/n/12 2 [] 0 \OML/cmm/m/it/12 < x < [][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
+
+ []
+
+
+Overfull \hbox (32.71785pt too wide) detected at line 166
+\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 ) = 1\OML/
+cmm/m/it/12 =\OT1/cmr/m/n/12 2 [] 1 \OML/cmm/m/it/12 < x < \OMS/cmsy/m/n/12 1
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 175--175
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--184
+
+ []
+
+
+Overfull \hbox (29.13322pt too wide) detected at line 193
+\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 ) = 1\OML/
+cmm/m/it/12 =\OT1/cmr/m/n/12 2 [] 0 \OML/cmm/m/it/12 < x < \OMS/cmsy/m/n/12 1
+ []
+
+[5] (InverseGaussian_Gen.aux) ) 
+Here is how much of TeX's memory you used:
+ 312 strings out of 493634
+ 3639 string characters out of 3143747
+ 60604 words of memory out of 3000000
+ 3757 multiletter control sequences out of 15000+200000
+ 9333 words of font info for 35 fonts, out of 3000000 for 9000
+ 1025 hyphenation exceptions out of 8191
+ 22i,9n,24p,198b,107s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cmextra/cmex8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+ti12.pfb>
+Output written on InverseGaussian_Gen.pdf (5 pages, 123722 bytes).
+PDF statistics:
+ 66 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,77 @@
+\documentclass[10pt]{article}
+ 
+\usepackage[margin=1in]{geometry} 
+\usepackage{amsmath,amsthm,amssymb, graphicx, multicol, array}
+\usepackage{amsfonts}
+\usepackage{multirow}
+\usepackage{pdflscape}
+
+ 
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+ 
+\newenvironment{problem}[2][Problem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+\begin{document}
+\begin{landscape} 
+
+\center{Log Normal Distribution} \\
+$$f(x) = \frac{k}{\lambda}(\frac{x}{\lambda})^{k-1}e^{-\frac{x}{\lambda}}^k$$
+
+
+
+\begin{tabular}{|c|c||c c c c c c c c c c l|}
+
+\hline 
+& General &  \multicolumn{11}{|c|}{Example: Log Logistic (1,2)}\\
+
+Transformation & PDF &  PDF & CDF & HF & IDF & $\mu$ & $\sigma^2$ & MF & MGF & HF Shape & Support & Comment\\
+\hline
+
+$x^2$ & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \partial & DFR & $0,\infty$ \\
+
+$\sqrt{x}$ & \checkmark &\checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \partial & \partial & UBT & $0,\infty$ \\
+
+$x^{-1}$ & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \partial & \partial & DFR & $0,\infty$ \\
+
+$\arctan(x)$ & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \partial & \partial & \partial & \partial & MM & $0,\frac{1}{2}\pi \\
+
+$\text{e}^x$ & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \infty & U & \infty & \partial & DFR & $1,\infty$ $\\
+
+$\ln(x)$ & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \partial & \checkmark & IFR & $-\infty, \infty$ \\
+
+$\text{e}^{-x}$ & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \partial & \partial & \partial & \partial & BT & $0, 1$\\
+
+$-\ln(x)$ & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \partial & \checkmark & IFR & $-\infty, \infty$\\
+
+$\ln(x+1)$ & \checkmark & \checkmark & \partial & \partial & \partial & \partial & \partial & \partial & \partial & ??? & $0,\infty$ \\
+
+$1/\ln(x+2)$ & \checkmark & $\checkmark$ & $\partial$ & $\partial$ && $\partial$ & $\partial$ & $\partial$ & $\partial$ && $0,\frac{1}{\text{ln}(2)}$ \\
+
+$\tanh(x)$ & \checkmark & $\checkmark$ & $\partial$ & $\partial$ && $\partial$ & $\partial$ & $\partial$ & $\partial$ &MM& $0,1$ \\
+
+$\sinh(x)$ & \checkmark & $\checkmark$ & $\checkmark & $\checkmark &$\checkmark$& $\infty$ & U & $\infty$ & $\partial$ & IFR & $0,\infty$ \\
+
+$\text{arcsinh}(x)$ & \checkmark & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\partial$ & $\partial$ & $\partial$ & $\partial$ & $\partial$ & UBT & $0,\infty$ \\
+
+$\text{csch}(x+1)$ & \checkmark \\
+
+$\text{arccsch}(x+1)$ & \checkmark\\
+
+$1/\tanh(x+1)$ & \checkmark & $\checkmark$ & $\partial$ & $\partial$ & $\partial$ & $\partial$ & $\partial$ & $\partial$ & $\partial$ & & $1,\frac{\text{e}+\text{e}^{-1}}{\text{e}-\text{e}^{-1}}$\\
+
+$1/\text{sinh(x+1)}$ & \checkmark & $\checkmark$ & $\partial$ & $\partial$ && $\partial$ & $\partial$ & $\partial$ & $\partial$ && $0,\frac{2}{\text{e}-\text{e}^{-1}}$ \\
+
+$1/\text{arcsinh}(x+1)$ & \checkmark & $\checkmark$ & $\checkmark$ & $\checkmark$ && $\partial$ & $\partial$ & $\partial$ & $\partial$ & IFR & $0,\frac{1}{\text{ln}(1+\sqrt{2})}\\
+
+$1/\text{csch}(x)+1$ & \checkmark & $\checkmark$ & $\partial$ & $\partial$ && $\infty$ & U & $\infty$ & $\partial$ && $1,\infty$ \\
+
+$\text{tanh}(x^{-1})$ & \checkmark & $\checkmark$ & $\partial$ & $\partial$ && $\partial$ & $\partial$ & $\partial$ & $\partial$ &BT& $0,1$ \\
+
+$\text{csch}(x^{-1})$ & \checkmark & $\checkmark$ & $\partial$ & $\partial$ && $\partial$ & $\partial$ & $\partial$ & $\partial$ && $0,\infty$\\
+
+$\text{arccsch}(x^{-1})$ & \checkmark & $\checkmark$ & $\checkmark$ & $\checkmark$ && $\partial$ & $\partial$ & $\partial$ & $\partial$ &???& $0,\infty$\\
+
+\hline
+\end{tabular}

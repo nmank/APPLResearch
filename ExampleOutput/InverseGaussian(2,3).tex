@@ -1,0 +1,982 @@
+\documentclass[12pt]{article} 
+\usepackage{amsfonts} 
+\begin{document} 
+                          "InverseGaussianRV(2,3)"
+
+$$[x\mapsto \sqrt {{\frac {1}{\pi\,{x}^{3}}}}{{\rm e}^{-1/9\,{\frac {
+ \left( x-3 \right) ^{2}}{x}}}}]
+$$-------------------------------------------------------------------------------------------  \\$$t\mapsto {t}^{2}
+$$Probability Distribution Function 
+$$  f(x)=1/2\,{\frac {\sqrt {{x}^{-3/2}}}{\sqrt {\pi}\sqrt {x}}{{\rm e}^{-1/9\,
+{\frac { \left( \sqrt {x}-3 \right) ^{2}}{\sqrt {x}}}}}}
+$$Cumulative Distribution Function  
+ $$F(x)=1/2\,{\frac {1}{\sqrt {\pi}}\int_{0}^{x}\!{\frac {\sqrt {{t}^{-3/2}}}{
+\sqrt {t}}{{\rm e}^{-1/9\,{\frac { \left( \sqrt {t}-3 \right) ^{2}}{
+\sqrt {t}}}}}}\,{\rm d}t}
+$$ Inverse Cumulative Distribution Function 
+  $$F^{-1} = $$Survivor Function 
+ $$ S(x)=1/2\,{\frac {1}{\sqrt {\pi}} \left( 2\,\sqrt {\pi}-\int_{0}^{x}\!{
+\frac {\sqrt {{t}^{-3/2}}}{\sqrt {t}}{{\rm e}^{-1/9\,{\frac { \left( 
+\sqrt {t}-3 \right) ^{2}}{\sqrt {t}}}}}}\,{\rm d}t \right) }
+$$ Hazard Function 
+ $$ h(x)=-{\frac {\sqrt {{x}^{-3/2}}}{\sqrt {x}}{{\rm e}^{-1/9\,{\frac {
+ \left( \sqrt {x}-3 \right) ^{2}}{\sqrt {x}}}}} \left( -2\,\sqrt {\pi}
++\int_{0}^{x}\!{\frac {\sqrt {{t}^{-3/2}}}{\sqrt {t}}{{\rm e}^{-1/9\,{
+\frac { \left( \sqrt {t}-3 \right) ^{2}}{\sqrt {t}}}}}}\,{\rm d}t
+ \right) ^{-1}}
+$$Mean 
+ $$ mu={\frac{45}{2}}
+$$ Variance 
+ $$ sigma^2 = {\frac{57105}{8}}
+$$Moment Function 
+ $$ m(x) = 2/3\,{\frac {{{\rm e}^{2/3}}{{\sl K}_{-1/2+2\,r}\left(2/3\right)}
+\sqrt {3}{9}^{r}}{\sqrt {\pi}}}
+$$ Moment Generating Function 
+ $$\int_{0}^{\infty }\!1/2\,{\frac {1}{\sqrt {\pi}{x}^{5/4}}{{\rm e}^{1/9
+\,{\frac {9\,t{x}^{3/2}+6\,\sqrt {x}-x-9}{\sqrt {x}}}}}}\,{\rm d}x_{{1
+}}
+$$-------------------------------------------------------------------------------------------  \\$$t\mapsto \sqrt {t}
+$$Probability Distribution Function 
+$$  f(x)=2\,{\frac {1}{x\sqrt {\pi} \left| x \right| }{{\rm e}^{-1/9\,{\frac {
+ \left( {x}^{2}-3 \right) ^{2}}{{x}^{2}}}}}}
+$$Cumulative Distribution Function  
+ $$F(x)=2\,{\frac {1}{\sqrt {\pi}}\int_{0}^{x}\!{\frac {1}{t \left| t \right| 
+}{{\rm e}^{-1/9\,{\frac { \left( {t}^{2}-3 \right) ^{2}}{{t}^{2}}}}}}
+\,{\rm d}t}
+$$ Inverse Cumulative Distribution Function 
+  $$F^{-1} = $$Survivor Function 
+ $$ S(x)={\frac {1}{\sqrt {\pi}} \left( \sqrt {\pi}-2\,\int_{0}^{x}\!{\frac {1
+}{t \left| t \right| }{{\rm e}^{-1/9\,{\frac { \left( {t}^{2}-3
+ \right) ^{2}}{{t}^{2}}}}}}\,{\rm d}t \right) }
+$$ Hazard Function 
+ $$ h(x)=2\,{\frac {1}{x \left| x \right| }{{\rm e}^{-1/9\,{\frac { \left( {x}^
+{2}-3 \right) ^{2}}{{x}^{2}}}}} \left( \sqrt {\pi}-2\,\int_{0}^{x}\!{
+\frac {1}{t \left| t \right| }{{\rm e}^{-1/9\,{\frac { \left( {t}^{2}-
+3 \right) ^{2}}{{t}^{2}}}}}}\,{\rm d}t \right) ^{-1}}
+$$Mean 
+ $$ mu=2\,{\frac {{{\rm e}^{2/3}}{{\sl K}_{0}\left(2/3\right)}}{\sqrt {\pi}}}
+$$ Variance 
+ $$ sigma^2 = -{\frac {4\,{{\rm e}^{4/3}} \left( {{\sl K}_{0}\left(2/3\right)}
+ \right) ^{2}-3\,\pi}{\pi}}
+$$Moment Function 
+ $$ m(x) = \int_{0}^{\infty }\!2\,{\frac {{x}^{r}}{x\sqrt {\pi} \left| x \right| 
+}{{\rm e}^{-1/9\,{\frac { \left( {x}^{2}-3 \right) ^{2}}{{x}^{2}}}}}}
+\,{\rm d}x
+$$ Moment Generating Function 
+ $$\int_{0}^{\infty }\!2\,{\frac {1}{\sqrt {\pi}{x}^{2}}{{\rm e}^{1/9\,{
+\frac {9\,t{x}^{3}-{x}^{4}+6\,{x}^{2}-9}{{x}^{2}}}}}}\,{\rm d}x_{{1}}
+$$-------------------------------------------------------------------------------------------  \\$$t\mapsto {t}^{-1}
+$$Probability Distribution Function 
+$$  f(x)={\frac {{\it signum} \left( x \right) }{\sqrt {x}\sqrt {\pi}}{{\rm e}^
+{-1/9\,{\frac { \left( -1+3\,x \right) ^{2}}{x}}}}}
+$$Cumulative Distribution Function  
+ $$F(x)=1/2\,{{\rm e}^{4/3}}{\rm erf} \left(1/3\,{\frac {3\,x+1}{\sqrt {x}}}
+\right)+1/2\,{\rm erf} \left(1/3\,{\frac {-1+3\,x}{\sqrt {x}}}\right)-
+1/2\,{{\rm e}^{4/3}}+1/2
+$$ Inverse Cumulative Distribution Function 
+  $$F^{-1} = [s\mapsto  \left( {\it RootOf} \left( {\rm erf} \left(1/3\,{\frac {{{
+\it \_Z}}^{2}-3}{{\it \_Z}}}\right)-{{\rm e}^{4/3}}{\rm erf} \left(1/3
+\,{\frac {{{\it \_Z}}^{2}+3}{{\it \_Z}}}\right)+{{\rm e}^{4/3}}+2\,s-1
+ \right)  \right) ^{-2}]
+$$Survivor Function 
+ $$ S(x)=1/2-1/2\,{\rm erf} \left(1/3\,{\frac {-1+3\,x}{\sqrt {x}}}\right)-1/2
+\,{{\rm e}^{4/3}}{\rm erf} \left(1/3\,{\frac {3\,x+1}{\sqrt {x}}}
+\right)+1/2\,{{\rm e}^{4/3}}
+$$ Hazard Function 
+ $$ h(x)=-2\,{\frac {{\it signum} \left( x \right) }{\sqrt {x}\sqrt {\pi}}{
+{\rm e}^{-1/9\,{\frac { \left( -1+3\,x \right) ^{2}}{x}}}} \left( {
+{\rm e}^{4/3}}{\rm erf} \left(1/3\,{\frac {3\,x+1}{\sqrt {x}}}\right)-
+{{\rm e}^{4/3}}+{\rm erf} \left(1/3\,{\frac {-1+3\,x}{\sqrt {x}}}
+\right)-1 \right) ^{-1}}
+$$Mean 
+ $$ mu=5/6
+$$ Variance 
+ $$ sigma^2 = 2/3
+$$Moment Function 
+ $$ m(x) = \int_{0}^{\infty }\!{\frac {{x}^{r}{\it signum} \left( x \right) }{
+\sqrt {x}\sqrt {\pi}}{{\rm e}^{-1/9\,{\frac { \left( -1+3\,x \right) ^
+{2}}{x}}}}}\,{\rm d}x
+$$ Moment Generating Function 
+ $$\lim _{x\rightarrow \infty }1/2\,{\frac {{{\rm e}^{2/3-2/3\,\sqrt {-t+
+1}}}}{\sqrt {-t+1}} \left( {{\rm e}^{4/3\,\sqrt {-t+1}}}{\rm erf} 
+\left(1/3\,{\frac {3\,\sqrt {-t+1}x+1}{\sqrt {x}}}\right)-{{\rm e}^{4/
+3\,\sqrt {-t+1}}}+{\rm erf} \left(1/3\,{\frac {3\,\sqrt {-t+1}x-1}{
+\sqrt {x}}}\right)+1 \right) }_{{1}}
+$$-------------------------------------------------------------------------------------------  \\$$t\mapsto \arctan \left( t \right) 
+$$Probability Distribution Function 
+$$  f(x)={\frac {\sqrt { \left( \tan \left( x \right)  \right) ^{-1}} \left( 1+
+ \left( \tan \left( x \right)  \right) ^{2} \right) }{ \left| \tan
+ \left( x \right)  \right| \sqrt {\pi}}{{\rm e}^{-1/9\,{\frac {
+ \left( \tan \left( x \right) -3 \right) ^{2}}{\tan \left( x \right) }
+}}}}
+$$Cumulative Distribution Function  
+ $$F(x)={\frac {1}{\sqrt {\pi}}\int_{0}^{x}\!{\frac {\sqrt { \left( \tan
+ \left( t \right)  \right) ^{-1}} \left( 1+ \left( \tan \left( t
+ \right)  \right) ^{2} \right) }{ \left| \tan \left( t \right) 
+ \right| }{{\rm e}^{-1/9\,{\frac { \left( \tan \left( t \right) -3
+ \right) ^{2}}{\tan \left( t \right) }}}}}\,{\rm d}t}
+$$ Inverse Cumulative Distribution Function 
+  $$F^{-1} = $$Survivor Function 
+ $$ S(x)={\frac {1}{\sqrt {\pi}} \left( \sqrt {\pi}-\int_{0}^{x}\!{\frac {1}{
+ \left( \cos \left( t \right)  \right) ^{2}}\sqrt {{\frac {\cos
+ \left( t \right) }{\sin \left( t \right) }}}{{\rm e}^{1/9\,{\frac {6
+\,\cos \left( t \right) \sin \left( t \right) -8\, \left( \cos \left( 
+t \right)  \right) ^{2}-1}{\cos \left( t \right) \sin \left( t
+ \right) }}}} \left| {\frac {\cos \left( t \right) }{\sin \left( t
+ \right) }} \right| }\,{\rm d}t \right) }
+$$ Hazard Function 
+ $$ h(x)={\frac {1}{ \left( \cos \left( x \right)  \right) ^{2}}{{\rm e}^{1/9\,
+{\frac {6\,\cos \left( x \right) \sin \left( x \right) -8\, \left( 
+\cos \left( x \right)  \right) ^{2}-1}{\cos \left( x \right) \sin
+ \left( x \right) }}}}\sqrt {{\frac {\cos \left( x \right) }{\sin
+ \left( x \right) }}} \left| {\frac {\cos \left( x \right) }{\sin
+ \left( x \right) }} \right|  \left( \sqrt {\pi}-\int_{0}^{x}\!{\frac 
+{1}{ \left( \cos \left( t \right)  \right) ^{2}}\sqrt {{\frac {\cos
+ \left( t \right) }{\sin \left( t \right) }}}{{\rm e}^{1/9\,{\frac {6
+\,\cos \left( t \right) \sin \left( t \right) -8\, \left( \cos \left( 
+t \right)  \right) ^{2}-1}{\cos \left( t \right) \sin \left( t
+ \right) }}}} \left| {\frac {\cos \left( t \right) }{\sin \left( t
+ \right) }} \right| }\,{\rm d}t \right) ^{-1}}
+$$Mean 
+ $$ mu={\frac {1}{\sqrt {\pi}}\int_{0}^{\pi/2}\!{\frac {x}{ \left( \sin
+ \left( x \right)  \right) ^{3/2}\sqrt {\cos \left( x \right) }}{
+{\rm e}^{1/9\,{\frac {6\,\cos \left( x \right) \sin \left( x \right) -
+8\, \left( \cos \left( x \right)  \right) ^{2}-1}{\cos \left( x
+ \right) \sin \left( x \right) }}}}}\,{\rm d}x}
+$$ Variance 
+ $$ sigma^2 = {\frac {1}{{\pi}^{3/2}} \left( - \left( \int_{0}^{\pi/2}\!{\frac {x}{
+ \left( \sin \left( x \right)  \right) ^{3/2}\sqrt {\cos \left( x
+ \right) }}{{\rm e}^{1/9\,{\frac {6\,\cos \left( x \right) \sin
+ \left( x \right) -8\, \left( \cos \left( x \right)  \right) ^{2}-1}{
+\cos \left( x \right) \sin \left( x \right) }}}}}\,{\rm d}x \right) ^{
+2}\sqrt {\pi}+\int_{0}^{\pi/2}\!{\frac {{x}^{2}}{ \left( \sin \left( x
+ \right)  \right) ^{3/2}\sqrt {\cos \left( x \right) }}{{\rm e}^{1/9\,
+{\frac {6\,\cos \left( x \right) \sin \left( x \right) -8\, \left( 
+\cos \left( x \right)  \right) ^{2}-1}{\cos \left( x \right) \sin
+ \left( x \right) }}}}}\,{\rm d}x\pi \right) }
+$$Moment Function 
+ $$ m(x) = \int_{0}^{\pi/2}\!{\frac {{x}^{r}\sqrt { \left( \tan \left( x \right) 
+ \right) ^{-1}} \left( 1+ \left( \tan \left( x \right)  \right) ^{2}
+ \right) }{ \left| \tan \left( x \right)  \right| \sqrt {\pi}}{{\rm e}
+^{-1/9\,{\frac { \left( \tan \left( x \right) -3 \right) ^{2}}{\tan
+ \left( x \right) }}}}}\,{\rm d}x
+$$ Moment Generating Function 
+ $${\frac {1}{\sqrt {\pi}}\int_{0}^{\pi/2}\!{\frac {1}{ \left( \sin
+ \left( x \right)  \right) ^{3/2}\sqrt {\cos \left( x \right) }}{
+{\rm e}^{1/9\,{\frac {9\,tx\sin \left( x \right) \cos \left( x
+ \right) +6\,\cos \left( x \right) \sin \left( x \right) -8\, \left( 
+\cos \left( x \right)  \right) ^{2}-1}{\cos \left( x \right) \sin
+ \left( x \right) }}}}}\,{\rm d}x}_{{1}}
+$$-------------------------------------------------------------------------------------------  \\$$t\mapsto {{\rm e}^{t}}
+$$Probability Distribution Function 
+$$  f(x)={\frac {\sqrt { \left( \ln  \left( x \right)  \right) ^{-3}}}{\sqrt {
+\pi}x}{{\rm e}^{-1/9\,{\frac { \left( \ln  \left( x \right) -3
+ \right) ^{2}}{\ln  \left( x \right) }}}}}
+$$Cumulative Distribution Function  
+ $$F(x)={\frac {1}{\sqrt {\pi}}\int_{1}^{x}\!{\frac {\sqrt { \left( \ln 
+ \left( t \right)  \right) ^{-3}}}{t}{{\rm e}^{-1/9\,{\frac { \left( 
+\ln  \left( t \right) -3 \right) ^{2}}{\ln  \left( t \right) }}}}}
+\,{\rm d}t}
+$$ Inverse Cumulative Distribution Function 
+  $$F^{-1} = $$Survivor Function 
+ $$ S(x)={\frac {1}{\sqrt {\pi}} \left( \sqrt {\pi}-\int_{1}^{x}\!{\frac {
+\sqrt { \left( \ln  \left( t \right)  \right) ^{-3}}}{t}{{\rm e}^{-1/9
+\,{\frac { \left( \ln  \left( t \right) -3 \right) ^{2}}{\ln  \left( t
+ \right) }}}}}\,{\rm d}t \right) }
+$$ Hazard Function 
+ $$ h(x)={\frac {\sqrt { \left( \ln  \left( x \right)  \right) ^{-3}}}{x}{
+{\rm e}^{-1/9\,{\frac { \left( \ln  \left( x \right) -3 \right) ^{2}}{
+\ln  \left( x \right) }}}} \left( \sqrt {\pi}-\int_{1}^{x}\!{\frac {
+\sqrt { \left( \ln  \left( t \right)  \right) ^{-3}}}{t}{{\rm e}^{-1/9
+\,{\frac { \left( \ln  \left( t \right) -3 \right) ^{2}}{\ln  \left( t
+ \right) }}}}}\,{\rm d}t \right) ^{-1}}
+$$Mean 
+ $$ mu=\infty 
+$$ Variance 
+ $$ sigma^2 = {\it undefined}
+$$Moment Function 
+ $$ m(x) = \infty 
+$$ Moment Generating Function 
+ $$\int_{1}^{\infty }\!{\frac {1}{x \left( \ln  \left( x \right) 
+ \right) ^{3/2}\sqrt {\pi}}{{\rm e}^{-1/9\,{\frac {-9\,tx\ln  \left( x
+ \right) + \left( \ln  \left( x \right)  \right) ^{2}-6\,\ln  \left( x
+ \right) +9}{\ln  \left( x \right) }}}}}\,{\rm d}x_{{1}}
+$$-------------------------------------------------------------------------------------------  \\$$t\mapsto \ln  \left( t \right) 
+$$Probability Distribution Function 
+$$  f(x)={\frac {{{\rm e}^{-x/2-1/9\,{{\rm e}^{x}}+2/3-{{\rm e}^{-x}}}}}{\sqrt 
+{\pi}}}
+$$Cumulative Distribution Function  
+ $$F(x)=\int_{-\infty }^{x}\!{\frac {{{\rm e}^{-t/2-1/9\,{{\rm e}^{t}}+2/3-{
+{\rm e}^{-t}}}}}{\sqrt {\pi}}}\,{\rm d}t
+$$ Inverse Cumulative Distribution Function 
+  $$F^{-1} = $$Survivor Function 
+ $$ S(x)=1-\int_{-\infty }^{x}\!{\frac {{{\rm e}^{-t/2-1/9\,{{\rm e}^{t}}+2/3-{
+{\rm e}^{-t}}}}}{\sqrt {\pi}}}\,{\rm d}t
+$$ Hazard Function 
+ $$ h(x)=-{\frac {{{\rm e}^{-1/18\, \left( 2\,{{\rm e}^{2\,x}}+9\,x{{\rm e}^{x}
+}-12\,{{\rm e}^{x}}+18 \right) {{\rm e}^{-x}}}}}{\sqrt {\pi}} \left( -
+1+\int_{-\infty }^{x}\!{\frac {{{\rm e}^{-t/2-1/9\,{{\rm e}^{t}}+2/3-{
+{\rm e}^{-t}}}}}{\sqrt {\pi}}}\,{\rm d}t \right) ^{-1}}
+$$Mean 
+ $$ mu=\int_{-\infty }^{\infty }\!{\frac {x{{\rm e}^{-x/2-1/9\,{{\rm e}^{x}}+
+2/3-{{\rm e}^{-x}}}}}{\sqrt {\pi}}}\,{\rm d}x
+$$ Variance 
+ $$ sigma^2 = \int_{-\infty }^{\infty }\!{\frac {{x}^{2}{{\rm e}^{-x/2-1/9\,{{\rm e}
+^{x}}+2/3-{{\rm e}^{-x}}}}}{\sqrt {\pi}}}\,{\rm d}x- \left( \int_{-
+\infty }^{\infty }\!{\frac {x{{\rm e}^{-x/2-1/9\,{{\rm e}^{x}}+2/3-{
+{\rm e}^{-x}}}}}{\sqrt {\pi}}}\,{\rm d}x \right) ^{2}
+$$Moment Function 
+ $$ m(x) = \int_{-\infty }^{\infty }\!{\frac {{x}^{r}{{\rm e}^{-x/2-1/9\,{{\rm e}
+^{x}}+2/3-{{\rm e}^{-x}}}}}{\sqrt {\pi}}}\,{\rm d}x
+$$ Moment Generating Function 
+ $$\int_{-\infty }^{\infty }\!{\frac {{{\rm e}^{tx-x/2-1/9\,{{\rm e}^{x}}
++2/3-{{\rm e}^{-x}}}}}{\sqrt {\pi}}}\,{\rm d}x_{{1}}
+$$-------------------------------------------------------------------------------------------  \\$$t\mapsto {{\rm e}^{-t}}
+$$Probability Distribution Function 
+$$  f(x)={\frac {1}{\sqrt {\pi}x}\sqrt {- \left( \ln  \left( x \right) 
+ \right) ^{-3}}{{\rm e}^{1/9\,{\frac { \left( \ln  \left( x \right) +3
+ \right) ^{2}}{\ln  \left( x \right) }}}}}
+$$Cumulative Distribution Function  
+ $$F(x)={\frac {1}{\sqrt {\pi}}\int_{0}^{x}\!{\frac {1}{t}\sqrt {- \left( \ln 
+ \left( t \right)  \right) ^{-3}}{{\rm e}^{1/9\,{\frac { \left( \ln 
+ \left( t \right) +3 \right) ^{2}}{\ln  \left( t \right) }}}}}
+\,{\rm d}t}
+$$ Inverse Cumulative Distribution Function 
+  $$F^{-1} = $$Survivor Function 
+ $$ S(x)={\frac {1}{\sqrt {\pi}} \left( \sqrt {\pi}-\int_{0}^{x}\!{\frac {1}{t}
+\sqrt {- \left( \ln  \left( t \right)  \right) ^{-3}}{{\rm e}^{1/9\,{
+\frac { \left( \ln  \left( t \right) +3 \right) ^{2}}{\ln  \left( t
+ \right) }}}}}\,{\rm d}t \right) }
+$$ Hazard Function 
+ $$ h(x)=-{\frac {1}{x}\sqrt {- \left( \ln  \left( x \right)  \right) ^{-3}}{
+{\rm e}^{1/9\,{\frac { \left( \ln  \left( x \right) +3 \right) ^{2}}{
+\ln  \left( x \right) }}}} \left( -\sqrt {\pi}+\int_{0}^{x}\!{\frac {1
+}{t}\sqrt {- \left( \ln  \left( t \right)  \right) ^{-3}}{{\rm e}^{1/9
+\,{\frac { \left( \ln  \left( t \right) +3 \right) ^{2}}{\ln  \left( t
+ \right) }}}}}\,{\rm d}t \right) ^{-1}}
+$$Mean 
+ $$ mu={{\rm e}^{2/3-2/3\,\sqrt {10}}}
+$$ Variance 
+ $$ sigma^2 = {{\rm e}^{2/3-2/3\,\sqrt {19}}}-{{\rm e}^{4/3-4/3\,\sqrt {10}}}
+$$Moment Function 
+ $$ m(x) = {{\rm e}^{2/3-2/3\,\sqrt {9\,r+1}}}
+$$ Moment Generating Function 
+ $${\frac {1}{\sqrt {\pi}}\int_{0}^{1}\!{\frac {1}{ \left( -\ln  \left( x
+ \right)  \right) ^{3/2}x}{{\rm e}^{1/9\,{\frac {9\,tx\ln  \left( x
+ \right) + \left( \ln  \left( x \right)  \right) ^{2}+6\,\ln  \left( x
+ \right) +9}{\ln  \left( x \right) }}}}}\,{\rm d}x}_{{1}}
+$$-------------------------------------------------------------------------------------------  \\$$t\mapsto -\ln  \left( t \right) 
+$$Probability Distribution Function 
+$$  f(x)={\frac {{{\rm e}^{x/2-1/9\,{{\rm e}^{-x}}+2/3-{{\rm e}^{x}}}}}{\sqrt {
+\pi}}}
+$$Cumulative Distribution Function  
+ $$F(x)=\int_{-\infty }^{x}\!{\frac {{{\rm e}^{t/2-{{\rm e}^{t}}+2/3-1/9\,{
+{\rm e}^{-t}}}}}{\sqrt {\pi}}}\,{\rm d}t
+$$ Inverse Cumulative Distribution Function 
+  $$F^{-1} = $$Survivor Function 
+ $$ S(x)=1-\int_{-\infty }^{x}\!{\frac {{{\rm e}^{t/2-{{\rm e}^{t}}+2/3-1/9\,{
+{\rm e}^{-t}}}}}{\sqrt {\pi}}}\,{\rm d}t
+$$ Hazard Function 
+ $$ h(x)=-{\frac {{{\rm e}^{1/18\, \left( -18\,{{\rm e}^{2\,x}}+9\,x{{\rm e}^{x
+}}+12\,{{\rm e}^{x}}-2 \right) {{\rm e}^{-x}}}}}{\sqrt {\pi}} \left( -
+1+\int_{-\infty }^{x}\!{\frac {{{\rm e}^{t/2-{{\rm e}^{t}}+2/3-1/9\,{
+{\rm e}^{-t}}}}}{\sqrt {\pi}}}\,{\rm d}t \right) ^{-1}}
+$$Mean 
+ $$ mu=\int_{-\infty }^{\infty }\!{\frac {x{{\rm e}^{x/2-1/9\,{{\rm e}^{-x}}+
+2/3-{{\rm e}^{x}}}}}{\sqrt {\pi}}}\,{\rm d}x
+$$ Variance 
+ $$ sigma^2 = \int_{-\infty }^{\infty }\!{\frac {{x}^{2}{{\rm e}^{x/2-1/9\,{{\rm e}^
+{-x}}+2/3-{{\rm e}^{x}}}}}{\sqrt {\pi}}}\,{\rm d}x- \left( \int_{-
+\infty }^{\infty }\!{\frac {x{{\rm e}^{x/2-1/9\,{{\rm e}^{-x}}+2/3-{
+{\rm e}^{x}}}}}{\sqrt {\pi}}}\,{\rm d}x \right) ^{2}
+$$Moment Function 
+ $$ m(x) = \int_{-\infty }^{\infty }\!{\frac {{x}^{r}{{\rm e}^{x/2-1/9\,{{\rm e}^
+{-x}}+2/3-{{\rm e}^{x}}}}}{\sqrt {\pi}}}\,{\rm d}x
+$$ Moment Generating Function 
+ $$\int_{-\infty }^{\infty }\!{\frac {{{\rm e}^{tx+x/2-1/9\,{{\rm e}^{-x}
+}+2/3-{{\rm e}^{x}}}}}{\sqrt {\pi}}}\,{\rm d}x_{{1}}
+$$-------------------------------------------------------------------------------------------  \\$$t\mapsto \ln  \left( t+1 \right) 
+$$Probability Distribution Function 
+$$  f(x)={\frac {\sqrt { \left( {{\rm e}^{x}}-1 \right) ^{-1}}}{\sqrt {\pi}
+ \left| {{\rm e}^{x}}-1 \right| }{{\rm e}^{-1/9\,{\frac {{{\rm e}^{2\,
+x}}-9\,x{{\rm e}^{x}}-8\,{{\rm e}^{x}}+9\,x+16}{{{\rm e}^{x}}-1}}}}}
+$$Cumulative Distribution Function  
+ $$F(x)={\frac {1}{\sqrt {\pi}}\int_{0}^{x}\!{\frac {\sqrt { \left( {{\rm e}^{
+t}}-1 \right) ^{-1}}}{ \left| {{\rm e}^{t}}-1 \right| }{{\rm e}^{1/9\,
+{\frac {-{{\rm e}^{2\,t}}+9\,t{{\rm e}^{t}}+8\,{{\rm e}^{t}}-9\,t-16}{
+{{\rm e}^{t}}-1}}}}}\,{\rm d}t}
+$$ Inverse Cumulative Distribution Function 
+  $$F^{-1} = $$Survivor Function 
+ $$ S(x)={\frac {1}{\sqrt {\pi}} \left( \sqrt {\pi}-\int_{0}^{x}\!{\frac {
+\sqrt { \left( {{\rm e}^{t}}-1 \right) ^{-1}}}{ \left| {{\rm e}^{t}}-1
+ \right| }{{\rm e}^{-1/9\,{\frac {{{\rm e}^{2\,t}}-9\,t{{\rm e}^{t}}-8
+\,{{\rm e}^{t}}+9\,t+16}{{{\rm e}^{t}}-1}}}}}\,{\rm d}t \right) }
+$$ Hazard Function 
+ $$ h(x)={\frac {\sqrt { \left( {{\rm e}^{x}}-1 \right) ^{-1}}}{ \left| {
+{\rm e}^{x}}-1 \right| }{{\rm e}^{-1/9\,{\frac {{{\rm e}^{2\,x}}-9\,x{
+{\rm e}^{x}}-8\,{{\rm e}^{x}}+9\,x+16}{{{\rm e}^{x}}-1}}}} \left( 
+\sqrt {\pi}-\int_{0}^{x}\!{\frac {\sqrt { \left( {{\rm e}^{t}}-1
+ \right) ^{-1}}}{ \left| {{\rm e}^{t}}-1 \right| }{{\rm e}^{1/9\,{
+\frac {-{{\rm e}^{2\,t}}+9\,t{{\rm e}^{t}}+8\,{{\rm e}^{t}}-9\,t-16}{{
+{\rm e}^{t}}-1}}}}}\,{\rm d}t \right) ^{-1}}
+$$Mean 
+ $$ mu=\int_{0}^{\infty }\!{\frac {x}{\sqrt {\pi} \left( {{\rm e}^{x}}-1
+ \right) ^{3/2}}{{\rm e}^{-1/9\,{\frac {{{\rm e}^{2\,x}}-9\,x{{\rm e}^
+{x}}-8\,{{\rm e}^{x}}+9\,x+16}{{{\rm e}^{x}}-1}}}}}\,{\rm d}x
+$$ Variance 
+ $$ sigma^2 = \int_{0}^{\infty }\!{\frac {{x}^{2}}{\sqrt {\pi} \left( {{\rm e}^{x}}-
+1 \right) ^{3/2}}{{\rm e}^{-1/9\,{\frac {{{\rm e}^{2\,x}}-9\,x{{\rm e}
+^{x}}-8\,{{\rm e}^{x}}+9\,x+16}{{{\rm e}^{x}}-1}}}}}\,{\rm d}x-
+ \left( \int_{0}^{\infty }\!{\frac {x}{\sqrt {\pi} \left( {{\rm e}^{x}
+}-1 \right) ^{3/2}}{{\rm e}^{-1/9\,{\frac {{{\rm e}^{2\,x}}-9\,x{
+{\rm e}^{x}}-8\,{{\rm e}^{x}}+9\,x+16}{{{\rm e}^{x}}-1}}}}}\,{\rm d}x
+ \right) ^{2}
+$$Moment Function 
+ $$ m(x) = \int_{0}^{\infty }\!{\frac {{x}^{r}\sqrt { \left( {{\rm e}^{x}}-1
+ \right) ^{-1}}}{\sqrt {\pi} \left| {{\rm e}^{x}}-1 \right| }{{\rm e}^
+{-1/9\,{\frac {{{\rm e}^{2\,x}}-9\,x{{\rm e}^{x}}-8\,{{\rm e}^{x}}+9\,
+x+16}{{{\rm e}^{x}}-1}}}}}\,{\rm d}x
+$$ Moment Generating Function 
+ $$\int_{0}^{\infty }\!{\frac {1}{\sqrt {\pi} \left( {{\rm e}^{x}}-1
+ \right) ^{3/2}}{{\rm e}^{-1/9\,{\frac {-9\,tx{{\rm e}^{x}}-9\,x{
+{\rm e}^{x}}+9\,tx+{{\rm e}^{2\,x}}-8\,{{\rm e}^{x}}+9\,x+16}{{{\rm e}
+^{x}}-1}}}}}\,{\rm d}x_{{1}}
+$$-------------------------------------------------------------------------------------------  \\$$t\mapsto  \left( \ln  \left( t+2 \right)  \right) ^{-1}
+$$Probability Distribution Function 
+$$  f(x)={\frac {\sqrt { \left( {{\rm e}^{{x}^{-1}}}-2 \right) ^{-1}}}{\sqrt {
+\pi}{x}^{2} \left| {{\rm e}^{{x}^{-1}}}-2 \right| }{{\rm e}^{-1/9\,{
+\frac {1}{ \left( {{\rm e}^{{x}^{-1}}}-2 \right) x} \left( {{\rm e}^{2
+\,{x}^{-1}}}x-10\,{{\rm e}^{{x}^{-1}}}x-9\,{{\rm e}^{{x}^{-1}}}+25\,x+
+18 \right) }}}}
+$$Cumulative Distribution Function  
+ $$F(x)={\frac {1}{\sqrt {\pi}}\int_{0}^{x}\!{\frac {\sqrt { \left( {{\rm e}^{
+{t}^{-1}}}-2 \right) ^{-1}}}{{t}^{2} \left| {{\rm e}^{{t}^{-1}}}-2
+ \right| }{{\rm e}^{1/9\,{\frac {1}{ \left( {{\rm e}^{{t}^{-1}}}-2
+ \right) t} \left( -{{\rm e}^{2\,{t}^{-1}}}t+10\,{{\rm e}^{{t}^{-1}}}t
++9\,{{\rm e}^{{t}^{-1}}}-25\,t-18 \right) }}}}\,{\rm d}t}
+$$ Inverse Cumulative Distribution Function 
+  $$F^{-1} = $$Survivor Function 
+ $$ S(x)=-{\frac {1}{\sqrt {\pi}} \left( -\sqrt {\pi}+\int_{0}^{x}\!{\frac {
+\sqrt { \left( {{\rm e}^{{t}^{-1}}}-2 \right) ^{-1}}}{{t}^{2} \left| {
+{\rm e}^{{t}^{-1}}}-2 \right| }{{\rm e}^{1/9\,{\frac {1}{ \left( {
+{\rm e}^{{t}^{-1}}}-2 \right) t} \left( -{{\rm e}^{2\,{t}^{-1}}}t+10\,
+{{\rm e}^{{t}^{-1}}}t+9\,{{\rm e}^{{t}^{-1}}}-25\,t-18 \right) }}}}
+\,{\rm d}t \right) }
+$$ Hazard Function 
+ $$ h(x)={\frac {\sqrt { \left( {{\rm e}^{{x}^{-1}}}-2 \right) ^{-1}}}{{x}^{2}
+ \left| {{\rm e}^{{x}^{-1}}}-2 \right| }{{\rm e}^{1/9\,{\frac {1}{
+ \left( {{\rm e}^{{x}^{-1}}}-2 \right) x} \left( -{{\rm e}^{2\,{x}^{-1
+}}}x+10\,{{\rm e}^{{x}^{-1}}}x+9\,{{\rm e}^{{x}^{-1}}}-25\,x-18
+ \right) }}} \left( \sqrt {\pi}-\int_{0}^{x}\!{\frac {\sqrt { \left( {
+{\rm e}^{{t}^{-1}}}-2 \right) ^{-1}}}{{t}^{2} \left| {{\rm e}^{{t}^{-1
+}}}-2 \right| }{{\rm e}^{-1/9\,{\frac {1}{ \left( {{\rm e}^{{t}^{-1}}}
+-2 \right) t} \left( {{\rm e}^{2\,{t}^{-1}}}t-10\,{{\rm e}^{{t}^{-1}}}
+t-9\,{{\rm e}^{{t}^{-1}}}+25\,t+18 \right) }}}}\,{\rm d}t \right) ^{-1
+}}
+$$Mean 
+ $$ mu={\frac {1}{\sqrt {\pi}}\int_{0}^{ \left( \ln  \left( 2 \right) 
+ \right) ^{-1}}\!{\frac {1}{x \left( {{\rm e}^{{x}^{-1}}}-2 \right) ^{
+3/2}}{{\rm e}^{1/9\,{\frac {1}{ \left( {{\rm e}^{{x}^{-1}}}-2 \right) 
+x} \left( -{{\rm e}^{2\,{x}^{-1}}}x+10\,{{\rm e}^{{x}^{-1}}}x+9\,{
+{\rm e}^{{x}^{-1}}}-25\,x-18 \right) }}}}\,{\rm d}x}
+$$ Variance 
+ $$ sigma^2 = -{\frac {1}{{\pi}^{3/2}} \left(  \left( \int_{0}^{ \left( \ln  \left( 
+2 \right)  \right) ^{-1}}\!{\frac {1}{x \left( {{\rm e}^{{x}^{-1}}}-2
+ \right) ^{3/2}}{{\rm e}^{1/9\,{\frac {1}{ \left( {{\rm e}^{{x}^{-1}}}
+-2 \right) x} \left( -{{\rm e}^{2\,{x}^{-1}}}x+10\,{{\rm e}^{{x}^{-1}}
+}x+9\,{{\rm e}^{{x}^{-1}}}-25\,x-18 \right) }}}}\,{\rm d}x \right) ^{2
+}\sqrt {\pi}-\int_{0}^{ \left( \ln  \left( 2 \right)  \right) ^{-1}}\!
+{\frac {1}{ \left( {{\rm e}^{{x}^{-1}}}-2 \right) ^{3/2}}{{\rm e}^{1/9
+\,{\frac {1}{ \left( {{\rm e}^{{x}^{-1}}}-2 \right) x} \left( -{
+{\rm e}^{2\,{x}^{-1}}}x+10\,{{\rm e}^{{x}^{-1}}}x+9\,{{\rm e}^{{x}^{-1
+}}}-25\,x-18 \right) }}}}\,{\rm d}x\pi \right) }
+$$Moment Function 
+ $$ m(x) = \int_{0}^{ \left( \ln  \left( 2 \right)  \right) ^{-1}}\!{\frac {{x}^{
+r}\sqrt { \left( {{\rm e}^{{x}^{-1}}}-2 \right) ^{-1}}}{\sqrt {\pi}{x}
+^{2} \left| {{\rm e}^{{x}^{-1}}}-2 \right| }{{\rm e}^{-1/9\,{\frac {1
+}{ \left( {{\rm e}^{{x}^{-1}}}-2 \right) x} \left( {{\rm e}^{2\,{x}^{-
+1}}}x-10\,{{\rm e}^{{x}^{-1}}}x-9\,{{\rm e}^{{x}^{-1}}}+25\,x+18
+ \right) }}}}\,{\rm d}x
+$$ Moment Generating Function 
+ $${\frac {1}{\sqrt {\pi}}\int_{0}^{ \left( \ln  \left( 2 \right) 
+ \right) ^{-1}}\!{\frac {1}{ \left( {{\rm e}^{{x}^{-1}}}-2 \right) ^{3
+/2}{x}^{2}}{{\rm e}^{1/9\,{\frac {1}{ \left( {{\rm e}^{{x}^{-1}}}-2
+ \right) x} \left( 9\,t{x}^{2}{{\rm e}^{{x}^{-1}}}-{{\rm e}^{2\,{x}^{-
+1}}}x-18\,t{x}^{2}+10\,{{\rm e}^{{x}^{-1}}}x+9\,{{\rm e}^{{x}^{-1}}}-
+25\,x-18 \right) }}}}\,{\rm d}x}_{{1}}
+$$-------------------------------------------------------------------------------------------  \\$$t\mapsto \tanh \left( t \right) 
+$$Probability Distribution Function 
+$$  f(x)=-{\frac {\sqrt { \left( {\rm arctanh} \left(x\right) \right) ^{-3}}}{
+\sqrt {\pi} \left( {x}^{2}-1 \right) }{{\rm e}^{-1/9\,{\frac { \left( 
+{\rm arctanh} \left(x\right)-3 \right) ^{2}}{{\rm arctanh} \left(x
+\right)}}}}}
+$$Cumulative Distribution Function  
+ $$F(x)=-{\frac {1}{\sqrt {\pi}}\int_{0}^{x}\!{\frac {\sqrt { \left( 
+{\rm arctanh} \left(t\right) \right) ^{-3}}}{{t}^{2}-1}{{\rm e}^{-1/9
+\,{\frac { \left( {\rm arctanh} \left(t\right)-3 \right) ^{2}}{
+{\rm arctanh} \left(t\right)}}}}}\,{\rm d}t}
+$$ Inverse Cumulative Distribution Function 
+  $$F^{-1} = $$Survivor Function 
+ $$ S(x)={\frac {1}{\sqrt {\pi}} \left( \sqrt {\pi}+\int_{0}^{x}\!{\frac {
+\sqrt { \left( {\rm arctanh} \left(t\right) \right) ^{-3}}}{{t}^{2}-1}
+{{\rm e}^{-1/9\,{\frac { \left( {\rm arctanh} \left(t\right)-3
+ \right) ^{2}}{{\rm arctanh} \left(t\right)}}}}}\,{\rm d}t \right) }
+$$ Hazard Function 
+ $$ h(x)=-{\frac {\sqrt { \left( {\rm arctanh} \left(x\right) \right) ^{-3}}}{{
+x}^{2}-1}{{\rm e}^{-1/9\,{\frac { \left( {\rm arctanh} \left(x\right)-
+3 \right) ^{2}}{{\rm arctanh} \left(x\right)}}}} \left( \sqrt {\pi}+
+\int_{0}^{x}\!{\frac {\sqrt { \left( {\rm arctanh} \left(t\right)
+ \right) ^{-3}}}{{t}^{2}-1}{{\rm e}^{-1/9\,{\frac { \left( 
+{\rm arctanh} \left(t\right)-3 \right) ^{2}}{{\rm arctanh} \left(t
+\right)}}}}}\,{\rm d}t \right) ^{-1}}
+$$Mean 
+ $$ mu=-{\frac {1}{\sqrt {\pi}}\int_{0}^{1}\!{\frac {x}{ \left( {\rm arctanh}
+ \left(x\right) \right) ^{3/2} \left( {x}^{2}-1 \right) }{{\rm e}^{-1/
+9\,{\frac { \left( {\rm arctanh} \left(x\right)-3 \right) ^{2}}{
+{\rm arctanh} \left(x\right)}}}}}\,{\rm d}x}
+$$ Variance 
+ $$ sigma^2 = -{\frac {1}{{\pi}^{3/2}} \left(  \left( \int_{0}^{1}\!{\frac {x}{
+ \left( {\rm arctanh} \left(x\right) \right) ^{3/2} \left( {x}^{2}-1
+ \right) }{{\rm e}^{-1/9\,{\frac { \left( {\rm arctanh} \left(x\right)
+-3 \right) ^{2}}{{\rm arctanh} \left(x\right)}}}}}\,{\rm d}x \right) ^
+{2}\sqrt {\pi}+\int_{0}^{1}\!{\frac {{x}^{2}}{ \left( {\rm arctanh} 
+\left(x\right) \right) ^{3/2} \left( {x}^{2}-1 \right) }{{\rm e}^{-1/9
+\,{\frac { \left( {\rm arctanh} \left(x\right)-3 \right) ^{2}}{
+{\rm arctanh} \left(x\right)}}}}}\,{\rm d}x\pi \right) }
+$$Moment Function 
+ $$ m(x) = \int_{0}^{1}\!-{\frac {{x}^{r}\sqrt { \left( {\rm arctanh} \left(x
+\right) \right) ^{-3}}}{\sqrt {\pi} \left( {x}^{2}-1 \right) }{{\rm e}
+^{-1/9\,{\frac { \left( {\rm arctanh} \left(x\right)-3 \right) ^{2}}{
+{\rm arctanh} \left(x\right)}}}}}\,{\rm d}x
+$$ Moment Generating Function 
+ $$-{\frac {1}{\sqrt {\pi}}\int_{0}^{1}\!{\frac {1}{ \left( {\rm arctanh}
+ \left(x\right) \right) ^{3/2} \left( {x}^{2}-1 \right) }{{\rm e}^{-1/
+9\,{\frac {-9\,tx{\rm arctanh} \left(x\right)+ \left( {\rm arctanh} 
+\left(x\right) \right) ^{2}-6\,{\rm arctanh} \left(x\right)+9}{
+{\rm arctanh} \left(x\right)}}}}}\,{\rm d}x}_{{1}}
+$$-------------------------------------------------------------------------------------------  \\$$t\mapsto \sinh \left( t \right) 
+$$Probability Distribution Function 
+$$  f(x)={\frac {{\it signum} \left( x \right) \sqrt { \left( {\rm arcsinh} 
+\left(x\right) \right) ^{-1}}}{{\rm arcsinh} \left(x\right)\sqrt {\pi}
+\sqrt {{x}^{2}+1}}{{\rm e}^{-1/9\,{\frac { \left( {\rm arcsinh} \left(
+x\right)-3 \right) ^{2}}{{\rm arcsinh} \left(x\right)}}}}}
+$$Cumulative Distribution Function  
+ $$F(x)={\frac {1}{\sqrt {\pi}}\int_{0}^{x}\!{\frac {{\it signum} \left( t
+ \right) \sqrt { \left( {\rm arcsinh} \left(t\right) \right) ^{-1}}}{
+{\rm arcsinh} \left(t\right)\sqrt {{t}^{2}+1}}{{\rm e}^{-1/9\,{\frac {
+ \left( {\rm arcsinh} \left(t\right)-3 \right) ^{2}}{{\rm arcsinh} 
+\left(t\right)}}}}}\,{\rm d}t}
+$$ Inverse Cumulative Distribution Function 
+  $$F^{-1} = $$Survivor Function 
+ $$ S(x)={\frac {1}{\sqrt {\pi}} \left( \sqrt {\pi}-\int_{0}^{x}\!{\frac {{\it 
+signum} \left( t \right) \sqrt { \left( {\rm arcsinh} \left(t\right)
+ \right) ^{-1}}}{{\rm arcsinh} \left(t\right)\sqrt {{t}^{2}+1}}{
+{\rm e}^{-1/9\,{\frac { \left( {\rm arcsinh} \left(t\right)-3 \right) 
+^{2}}{{\rm arcsinh} \left(t\right)}}}}}\,{\rm d}t \right) }
+$$ Hazard Function 
+ $$ h(x)=-{\frac {{\it signum} \left( x \right) \sqrt { \left( {\rm arcsinh} 
+\left(x\right) \right) ^{-1}}}{{\rm arcsinh} \left(x\right)\sqrt {{x}^
+{2}+1}}{{\rm e}^{-1/9\,{\frac { \left( {\rm arcsinh} \left(x\right)-3
+ \right) ^{2}}{{\rm arcsinh} \left(x\right)}}}} \left( -\sqrt {\pi}+
+\int_{0}^{x}\!{\frac {{\it signum} \left( t \right) \sqrt { \left( 
+{\rm arcsinh} \left(t\right) \right) ^{-1}}}{{\rm arcsinh} \left(t
+\right)\sqrt {{t}^{2}+1}}{{\rm e}^{-1/9\,{\frac { \left( {\rm arcsinh}
+ \left(t\right)-3 \right) ^{2}}{{\rm arcsinh} \left(t\right)}}}}}
+\,{\rm d}t \right) ^{-1}}
+$$Mean 
+ $$ mu=\infty 
+$$ Variance 
+ $$ sigma^2 = {\it undefined}
+$$Moment Function 
+ $$ m(x) = \infty 
+$$ Moment Generating Function 
+ $$\int_{0}^{\infty }\!{\frac {1}{ \left( {\rm arcsinh} \left(x\right)
+ \right) ^{3/2}\sqrt {{x}^{2}+1}\sqrt {\pi}}{{\rm e}^{-1/9\,{\frac {-9
+\,tx{\rm arcsinh} \left(x\right)+ \left( {\rm arcsinh} \left(x\right)
+ \right) ^{2}-6\,{\rm arcsinh} \left(x\right)+9}{{\rm arcsinh} \left(x
+\right)}}}}}\,{\rm d}x_{{1}}
+$$-------------------------------------------------------------------------------------------  \\$$t\mapsto {\rm arcsinh} \left(t\right)
+$$Probability Distribution Function 
+$$  f(x)={\frac {{\it signum} \left( x \right) \sqrt { \left( \sinh \left( x
+ \right)  \right) ^{-1}}\cosh \left( x \right) }{\sinh \left( x
+ \right) \sqrt {\pi}}{{\rm e}^{-1/9\,{\frac { \left( \sinh \left( x
+ \right) -3 \right) ^{2}}{\sinh \left( x \right) }}}}}
+$$Cumulative Distribution Function  
+ $$F(x)={\it undefined}
+$$ Inverse Cumulative Distribution Function 
+  $$F^{-1} = []
+$$Survivor Function 
+ $$ S(x)={\it undefined}
+$$ Hazard Function 
+ $$ h(x)={\frac {{\it signum} \left( x \right) \sqrt { \left( \sinh \left( x
+ \right)  \right) ^{-1}}\cosh \left( x \right) {\it undefined}}{\sinh
+ \left( x \right) }{{\rm e}^{-1/9\,{\frac { \left( \sinh \left( x
+ \right) -3 \right) ^{2}}{\sinh \left( x \right) }}}}}
+$$Mean 
+ $$ mu=\int_{0}^{\infty }\!{\frac {\cosh \left( x \right) x}{ \left( \sinh
+ \left( x \right)  \right) ^{3/2}\sqrt {\pi}}{{\rm e}^{1/9\,{\frac {-
+ \left( \cosh \left( x \right)  \right) ^{2}+6\,\sinh \left( x
+ \right) -8}{\sinh \left( x \right) }}}}}\,{\rm d}x
+$$ Variance 
+ $$ sigma^2 = \int_{0}^{\infty }\!{\frac {\cosh \left( x \right) {x}^{2}}{ \left( 
+\sinh \left( x \right)  \right) ^{3/2}\sqrt {\pi}}{{\rm e}^{1/9\,{
+\frac {- \left( \cosh \left( x \right)  \right) ^{2}+6\,\sinh \left( x
+ \right) -8}{\sinh \left( x \right) }}}}}\,{\rm d}x- \left( \int_{0}^{
+\infty }\!{\frac {\cosh \left( x \right) x}{ \left( \sinh \left( x
+ \right)  \right) ^{3/2}\sqrt {\pi}}{{\rm e}^{1/9\,{\frac {- \left( 
+\cosh \left( x \right)  \right) ^{2}+6\,\sinh \left( x \right) -8}{
+\sinh \left( x \right) }}}}}\,{\rm d}x \right) ^{2}
+$$Moment Function 
+ $$ m(x) = \int_{0}^{\infty }\!{\frac {{x}^{r}{\it signum} \left( x \right) 
+\sqrt { \left( \sinh \left( x \right)  \right) ^{-1}}\cosh \left( x
+ \right) }{\sinh \left( x \right) \sqrt {\pi}}{{\rm e}^{-1/9\,{\frac {
+ \left( \sinh \left( x \right) -3 \right) ^{2}}{\sinh \left( x
+ \right) }}}}}\,{\rm d}x
+$$ Moment Generating Function 
+ $$\int_{0}^{\infty }\!{\frac {\cosh \left( x \right) }{ \left( \sinh
+ \left( x \right)  \right) ^{3/2}\sqrt {\pi}}{{\rm e}^{1/9\,{\frac {9
+\,tx\sinh \left( x \right) - \left( \cosh \left( x \right)  \right) ^{
+2}+6\,\sinh \left( x \right) -8}{\sinh \left( x \right) }}}}}\,{\rm d}
+x_{{1}}
+$$-------------------------------------------------------------------------------------------  \\$$t\mapsto {\rm csch} \left(t+1\right)
+$$Probability Distribution Function 
+$$  f(x)={\frac {\sqrt { \left( -1+{\rm arccsch} \left(x\right) \right) ^{-3}}
+}{\sqrt {\pi}\sqrt {{x}^{2}+1} \left| x \right| }{{\rm e}^{-1/9\,{
+\frac { \left( -4+{\rm arccsch} \left(x\right) \right) ^{2}}{-1+
+{\rm arccsch} \left(x\right)}}}}}
+$$-------------------------------------------------------------------------------------------  \\$$t\mapsto {\rm arccsch} \left(t+1\right)
+$$Probability Distribution Function 
+$$  f(x)={\frac {{\it signum} \left( x \right) \cosh \left( x \right) }{\sinh
+ \left( x \right) \sqrt {\pi} \left| \sinh \left( x \right) -1
+ \right| }\sqrt {-{\frac {\sinh \left( x \right) }{\sinh \left( x
+ \right) -1}}}{{\rm e}^{1/9\,{\frac { \left( 4\,\sinh \left( x
+ \right) -1 \right) ^{2}}{\sinh \left( x \right)  \left( \sinh \left( 
+x \right) -1 \right) }}}}}
+$$Cumulative Distribution Function  
+ $$F(x)={\frac {1}{\sqrt {\pi}}\int_{0}^{x}\!{\frac {{\it signum} \left( t
+ \right) \cosh \left( t \right) }{\sinh \left( t \right)  \left| \sinh
+ \left( t \right) -1 \right| }\sqrt {-{\frac {\sinh \left( t \right) 
+}{\sinh \left( t \right) -1}}}{{\rm e}^{1/9\,{\frac { \left( 4\,\sinh
+ \left( t \right) -1 \right) ^{2}}{\sinh \left( t \right)  \left( 
+\sinh \left( t \right) -1 \right) }}}}}\,{\rm d}t}
+$$ Inverse Cumulative Distribution Function 
+  $$F^{-1} = $$Survivor Function 
+ $$ S(x)=-{\frac {1}{\sqrt {\pi}} \left( -\sqrt {\pi}+\int_{0}^{x}\!{\frac {{
+\it signum} \left( t \right) \cosh \left( t \right) }{\sinh \left( t
+ \right)  \left| \sinh \left( t \right) -1 \right| }\sqrt {-{\frac {
+\sinh \left( t \right) }{\sinh \left( t \right) -1}}}{{\rm e}^{1/9\,{
+\frac { \left( 4\,\sinh \left( t \right) -1 \right) ^{2}}{\sinh
+ \left( t \right)  \left( \sinh \left( t \right) -1 \right) }}}}}
+\,{\rm d}t \right) }
+$$ Hazard Function 
+ $$ h(x)=-{\frac {{\it signum} \left( x \right) \cosh \left( x \right) }{\sinh
+ \left( x \right)  \left| \sinh \left( x \right) -1 \right| }\sqrt {-{
+\frac {\sinh \left( x \right) }{\sinh \left( x \right) -1}}}{{\rm e}^{
+1/9\,{\frac { \left( 4\,\sinh \left( x \right) -1 \right) ^{2}}{\sinh
+ \left( x \right)  \left( \sinh \left( x \right) -1 \right) }}}}
+ \left( -\sqrt {\pi}+\int_{0}^{x}\!{\frac {{\it signum} \left( t
+ \right) \cosh \left( t \right) }{\sinh \left( t \right)  \left| \sinh
+ \left( t \right) -1 \right| }\sqrt {-{\frac {\sinh \left( t \right) 
+}{\sinh \left( t \right) -1}}}{{\rm e}^{1/9\,{\frac { \left( 4\,\sinh
+ \left( t \right) -1 \right) ^{2}}{\sinh \left( t \right)  \left( 
+\sinh \left( t \right) -1 \right) }}}}}\,{\rm d}t \right) ^{-1}}
+$$Mean 
+ $$ mu={\frac {1}{\sqrt {\pi}}\int_{0}^{\ln  \left( 1+\sqrt {2} \right) }\!{
+\frac {x\cosh \left( x \right) }{\sqrt {\sinh \left( x \right) }
+ \left( 1-\sinh \left( x \right)  \right) ^{3/2}}{{\rm e}^{-1/9\,{
+\frac {-16\, \left( \cosh \left( x \right)  \right) ^{2}+8\,\sinh
+ \left( x \right) +15}{\sinh \left( x \right)  \left( \sinh \left( x
+ \right) -1 \right) }}}}}\,{\rm d}x}
+$$ Variance 
+ $$ sigma^2 = {\frac {1}{{\pi}^{3/2}} \left( - \left( \int_{0}^{\ln  \left( 1+\sqrt 
+{2} \right) }\!{\frac {x\cosh \left( x \right) }{\sqrt {\sinh \left( x
+ \right) } \left( 1-\sinh \left( x \right)  \right) ^{3/2}}{{\rm e}^{-
+1/9\,{\frac {-16\, \left( \cosh \left( x \right)  \right) ^{2}+8\,
+\sinh \left( x \right) +15}{\sinh \left( x \right)  \left( \sinh
+ \left( x \right) -1 \right) }}}}}\,{\rm d}x \right) ^{2}\sqrt {\pi}+
+\int_{0}^{\ln  \left( 1+\sqrt {2} \right) }\!{\frac {{x}^{2}\cosh
+ \left( x \right) }{\sqrt {\sinh \left( x \right) } \left( 1-\sinh
+ \left( x \right)  \right) ^{3/2}}{{\rm e}^{-1/9\,{\frac {-16\,
+ \left( \cosh \left( x \right)  \right) ^{2}+8\,\sinh \left( x
+ \right) +15}{\sinh \left( x \right)  \left( \sinh \left( x \right) -1
+ \right) }}}}}\,{\rm d}x\pi \right) }
+$$Moment Function 
+ $$ m(x) = \int_{0}^{\ln  \left( 1+\sqrt {2} \right) }\!{\frac {{x}^{r}{\it 
+signum} \left( x \right) \cosh \left( x \right) }{\sinh \left( x
+ \right) \sqrt {\pi} \left| \sinh \left( x \right) -1 \right| }\sqrt {
+-{\frac {\sinh \left( x \right) }{\sinh \left( x \right) -1}}}{{\rm e}
+^{1/9\,{\frac { \left( 4\,\sinh \left( x \right) -1 \right) ^{2}}{
+\sinh \left( x \right)  \left( \sinh \left( x \right) -1 \right) }}}}}
+\,{\rm d}x
+$$ Moment Generating Function 
+ $${\frac {1}{\sqrt {\pi}}\int_{0}^{\ln  \left( 1+\sqrt {2} \right) }\!{
+\frac {\cosh \left( x \right) }{\sqrt {\sinh \left( x \right) }
+ \left( 1-\sinh \left( x \right)  \right) ^{3/2}}{{\rm e}^{-1/9\,{
+\frac {-9\, \left( \cosh \left( x \right)  \right) ^{2}tx+9\,tx\sinh
+ \left( x \right) -16\, \left( \cosh \left( x \right)  \right) ^{2}+9
+\,tx+8\,\sinh \left( x \right) +15}{\sinh \left( x \right)  \left( 
+\sinh \left( x \right) -1 \right) }}}}}\,{\rm d}x}_{{1}}
+$$-------------------------------------------------------------------------------------------  \\$$t\mapsto  \left( \tanh \left( t+1 \right)  \right) ^{-1}
+$$Probability Distribution Function 
+$$  f(x)={\frac {\sqrt { \left( -1+{\rm arctanh} \left({x}^{-1}\right) \right) 
+^{-3}}}{\sqrt {\pi} \left( {x}^{2}-1 \right) }{{\rm e}^{-1/9\,{\frac {
+ \left( -4+{\rm arctanh} \left({x}^{-1}\right) \right) ^{2}}{-1+
+{\rm arctanh} \left({x}^{-1}\right)}}}}}
+$$Cumulative Distribution Function  
+ $$F(x)={\frac {1}{\sqrt {\pi}}\int_{1}^{x}\!{\frac {\sqrt { \left( -1+
+{\rm arctanh} \left({t}^{-1}\right) \right) ^{-3}}}{{t}^{2}-1}{{\rm e}
+^{-1/9\,{\frac { \left( -4+{\rm arctanh} \left({t}^{-1}\right)
+ \right) ^{2}}{-1+{\rm arctanh} \left({t}^{-1}\right)}}}}}\,{\rm d}t}
+$$ Inverse Cumulative Distribution Function 
+  $$F^{-1} = $$Survivor Function 
+ $$ S(x)=-{\frac {1}{\sqrt {\pi}} \left( -\sqrt {\pi}+\int_{1}^{x}\!{\frac {
+\sqrt { \left( -1+{\rm arctanh} \left({t}^{-1}\right) \right) ^{-3}}}{
+{t}^{2}-1}{{\rm e}^{-1/9\,{\frac { \left( -4+{\rm arctanh} \left({t}^{
+-1}\right) \right) ^{2}}{-1+{\rm arctanh} \left({t}^{-1}\right)}}}}}
+\,{\rm d}t \right) }
+$$ Hazard Function 
+ $$ h(x)=-{\frac {\sqrt { \left( -1+{\rm arctanh} \left({x}^{-1}\right)
+ \right) ^{-3}}}{{x}^{2}-1}{{\rm e}^{-1/9\,{\frac { \left( -4+
+{\rm arctanh} \left({x}^{-1}\right) \right) ^{2}}{-1+{\rm arctanh} 
+\left({x}^{-1}\right)}}}} \left( -\sqrt {\pi}+\int_{1}^{x}\!{\frac {
+\sqrt { \left( -1+{\rm arctanh} \left({t}^{-1}\right) \right) ^{-3}}}{
+{t}^{2}-1}{{\rm e}^{-1/9\,{\frac { \left( -4+{\rm arctanh} \left({t}^{
+-1}\right) \right) ^{2}}{-1+{\rm arctanh} \left({t}^{-1}\right)}}}}}
+\,{\rm d}t \right) ^{-1}}
+$$Mean 
+ $$ mu={\frac {1}{\sqrt {\pi}}\int_{1}^{{\frac {{{\rm e}^{2}}+1}{{{\rm e}^{2}
+}-1}}}\!{\frac {x\sqrt { \left( -1+{\rm arctanh} \left({x}^{-1}\right)
+ \right) ^{-3}}}{{x}^{2}-1}{{\rm e}^{-1/9\,{\frac { \left( -4+
+{\rm arctanh} \left({x}^{-1}\right) \right) ^{2}}{-1+{\rm arctanh} 
+\left({x}^{-1}\right)}}}}}\,{\rm d}x}
+$$ Variance 
+ $$ sigma^2 = {\frac {1}{{\pi}^{3/2}} \left( - \left( \int_{1}^{{\frac {{{\rm e}^{2}
+}+1}{{{\rm e}^{2}}-1}}}\!{\frac {x\sqrt { \left( -1+{\rm arctanh} 
+\left({x}^{-1}\right) \right) ^{-3}}}{{x}^{2}-1}{{\rm e}^{-1/9\,{
+\frac { \left( -4+{\rm arctanh} \left({x}^{-1}\right) \right) ^{2}}{-1
++{\rm arctanh} \left({x}^{-1}\right)}}}}}\,{\rm d}x \right) ^{2}\sqrt 
+{\pi}+\int_{1}^{{\frac {{{\rm e}^{2}}+1}{{{\rm e}^{2}}-1}}}\!{\frac {{
+x}^{2}\sqrt { \left( -1+{\rm arctanh} \left({x}^{-1}\right) \right) ^{
+-3}}}{{x}^{2}-1}{{\rm e}^{-1/9\,{\frac { \left( -4+{\rm arctanh} 
+\left({x}^{-1}\right) \right) ^{2}}{-1+{\rm arctanh} \left({x}^{-1}
+\right)}}}}}\,{\rm d}x\pi \right) }
+$$Moment Function 
+ $$ m(x) = \int_{1}^{{\frac {{\rm e}+{{\rm e}^{-1}}}{{\rm e}-{{\rm e}^{-1}}}}}\!{
+\frac {{x}^{r}\sqrt { \left( -1+{\rm arctanh} \left({x}^{-1}\right)
+ \right) ^{-3}}}{\sqrt {\pi} \left( {x}^{2}-1 \right) }{{\rm e}^{-1/9
+\,{\frac { \left( -4+{\rm arctanh} \left({x}^{-1}\right) \right) ^{2}
+}{-1+{\rm arctanh} \left({x}^{-1}\right)}}}}}\,{\rm d}x
+$$ Moment Generating Function 
+ $${\frac {1}{\sqrt {\pi}}\int_{1}^{{\frac {{{\rm e}^{2}}+1}{{{\rm e}^{2}
+}-1}}}\!{\frac {\sqrt { \left( -1+{\rm arctanh} \left({x}^{-1}\right)
+ \right) ^{-3}}}{{x}^{2}-1}{{\rm e}^{-1/9\,{\frac {-9\,tx{\rm arctanh}
+ \left({x}^{-1}\right)+ \left( {\rm arctanh} \left({x}^{-1}\right)
+ \right) ^{2}+9\,tx-8\,{\rm arctanh} \left({x}^{-1}\right)+16}{-1+
+{\rm arctanh} \left({x}^{-1}\right)}}}}}\,{\rm d}x}_{{1}}
+$$-------------------------------------------------------------------------------------------  \\$$t\mapsto  \left( \sinh \left( t+1 \right)  \right) ^{-1}
+$$Probability Distribution Function 
+$$  f(x)={\frac {\sqrt { \left( -1+{\rm arcsinh} \left({x}^{-1}\right) \right) 
+^{-1}}}{\sqrt {\pi}\sqrt {{x}^{2}+1}}{{\rm e}^{-1/9\,{\frac { \left( -
+4+{\rm arcsinh} \left({x}^{-1}\right) \right) ^{2}}{-1+{\rm arcsinh} 
+\left({x}^{-1}\right)}}}} \left| {\frac {1}{x \left( -1+{\rm arcsinh} 
+\left({x}^{-1}\right) \right) }} \right| }
+$$Cumulative Distribution Function  
+ $$F(x)={\frac {1}{\sqrt {\pi}}\int_{0}^{x}\!{\frac {\sqrt { \left( -1+
+{\rm arcsinh} \left({t}^{-1}\right) \right) ^{-1}}}{\sqrt {{t}^{2}+1}}
+{{\rm e}^{-1/9\,{\frac { \left( -4+{\rm arcsinh} \left({t}^{-1}\right)
+ \right) ^{2}}{-1+{\rm arcsinh} \left({t}^{-1}\right)}}}} \left| {
+\frac {1}{t \left( -1+{\rm arcsinh} \left({t}^{-1}\right) \right) }}
+ \right| }\,{\rm d}t}
+$$ Inverse Cumulative Distribution Function 
+  $$F^{-1} = $$Survivor Function 
+ $$ S(x)={\frac {1}{\sqrt {\pi}} \left( \sqrt {\pi}-\int_{0}^{x}\!{\frac {
+\sqrt { \left( -1+{\rm arcsinh} \left({t}^{-1}\right) \right) ^{-1}}}{
+\sqrt {{t}^{2}+1}}{{\rm e}^{-1/9\,{\frac { \left( -4+{\rm arcsinh} 
+\left({t}^{-1}\right) \right) ^{2}}{-1+{\rm arcsinh} \left({t}^{-1}
+\right)}}}} \left| {\frac {1}{t \left( -1+{\rm arcsinh} \left({t}^{-1}
+\right) \right) }} \right| }\,{\rm d}t \right) }
+$$ Hazard Function 
+ $$ h(x)={\frac {\sqrt { \left( -1+{\rm arcsinh} \left({x}^{-1}\right) \right) 
+^{-1}}}{\sqrt {{x}^{2}+1}}{{\rm e}^{-1/9\,{\frac { \left( -4+
+{\rm arcsinh} \left({x}^{-1}\right) \right) ^{2}}{-1+{\rm arcsinh} 
+\left({x}^{-1}\right)}}}} \left| {\frac {1}{x \left( -1+{\rm arcsinh} 
+\left({x}^{-1}\right) \right) }} \right|  \left( \sqrt {\pi}-\int_{0}^
+{x}\!{\frac {\sqrt { \left( -1+{\rm arcsinh} \left({t}^{-1}\right)
+ \right) ^{-1}}}{\sqrt {{t}^{2}+1}}{{\rm e}^{-1/9\,{\frac { \left( -4+
+{\rm arcsinh} \left({t}^{-1}\right) \right) ^{2}}{-1+{\rm arcsinh} 
+\left({t}^{-1}\right)}}}} \left| {\frac {1}{t \left( -1+{\rm arcsinh} 
+\left({t}^{-1}\right) \right) }} \right| }\,{\rm d}t \right) ^{-1}}
+$$Mean 
+ $$ mu={\frac {1}{\sqrt {\pi}}\int_{0}^{2\,{\frac {{\rm e}}{{{\rm e}^{2}}-1}}
+}\!{\frac {\sqrt { \left( -1+{\rm arcsinh} \left({x}^{-1}\right)
+ \right) ^{-1}}}{\sqrt {{x}^{2}+1} \left| -1+{\rm arcsinh} \left({x}^{
+-1}\right) \right| }{{\rm e}^{-1/9\,{\frac { \left( -4+{\rm arcsinh} 
+\left({x}^{-1}\right) \right) ^{2}}{-1+{\rm arcsinh} \left({x}^{-1}
+\right)}}}}}\,{\rm d}x}
+$$ Variance 
+ $$ sigma^2 = {\frac {1}{{\pi}^{3/2}} \left( - \left( \int_{0}^{2\,{\frac {{\rm e}}{
+{{\rm e}^{2}}-1}}}\!{\frac {\sqrt { \left( -1+{\rm arcsinh} \left({x}^
+{-1}\right) \right) ^{-1}}}{\sqrt {{x}^{2}+1} \left| -1+{\rm arcsinh} 
+\left({x}^{-1}\right) \right| }{{\rm e}^{-1/9\,{\frac { \left( -4+
+{\rm arcsinh} \left({x}^{-1}\right) \right) ^{2}}{-1+{\rm arcsinh} 
+\left({x}^{-1}\right)}}}}}\,{\rm d}x \right) ^{2}\sqrt {\pi}+\int_{0}^
+{2\,{\frac {{\rm e}}{{{\rm e}^{2}}-1}}}\!{\frac {x\sqrt { \left( -1+
+{\rm arcsinh} \left({x}^{-1}\right) \right) ^{-1}}}{\sqrt {{x}^{2}+1}
+ \left| -1+{\rm arcsinh} \left({x}^{-1}\right) \right| }{{\rm e}^{-1/9
+\,{\frac { \left( -4+{\rm arcsinh} \left({x}^{-1}\right) \right) ^{2}
+}{-1+{\rm arcsinh} \left({x}^{-1}\right)}}}}}\,{\rm d}x\pi \right) }
+$$Moment Function 
+ $$ m(x) = \int_{0}^{2\, \left( {\rm e}-{{\rm e}^{-1}} \right) ^{-1}}\!{\frac {{x
+}^{r}\sqrt { \left( -1+{\rm arcsinh} \left({x}^{-1}\right) \right) ^{-
+1}}}{\sqrt {\pi}\sqrt {{x}^{2}+1}}{{\rm e}^{-1/9\,{\frac { \left( -4+
+{\rm arcsinh} \left({x}^{-1}\right) \right) ^{2}}{-1+{\rm arcsinh} 
+\left({x}^{-1}\right)}}}} \left| {\frac {1}{x \left( -1+{\rm arcsinh} 
+\left({x}^{-1}\right) \right) }} \right| }\,{\rm d}x
+$$ Moment Generating Function 
+ $${\frac {1}{\sqrt {\pi}}\int_{0}^{2\,{\frac {{\rm e}}{{{\rm e}^{2}}-1}}
+}\!{\frac {\sqrt { \left( -1+{\rm arcsinh} \left({x}^{-1}\right)
+ \right) ^{-1}}}{x \left| -1+{\rm arcsinh} \left({x}^{-1}\right)
+ \right| \sqrt {{x}^{2}+1}}{{\rm e}^{-1/9\,{\frac {-9\,tx{\rm arcsinh}
+ \left({x}^{-1}\right)+ \left( {\rm arcsinh} \left({x}^{-1}\right)
+ \right) ^{2}+9\,tx-8\,{\rm arcsinh} \left({x}^{-1}\right)+16}{-1+
+{\rm arcsinh} \left({x}^{-1}\right)}}}}}\,{\rm d}x}_{{1}}
+$$-------------------------------------------------------------------------------------------  \\$$t\mapsto  \left( {\rm arcsinh} \left(t+1\right) \right) ^{-1}
+$$Probability Distribution Function 
+$$  f(x)={\frac {\sqrt { \left( -1+\sinh \left( {x}^{-1} \right)  \right) ^{-1}
+}\cosh \left( {x}^{-1} \right) }{\sqrt {\pi}{x}^{2} \left| -1+\sinh
+ \left( {x}^{-1} \right)  \right| }{{\rm e}^{-1/9\,{\frac { \left( -4+
+\sinh \left( {x}^{-1} \right)  \right) ^{2}}{-1+\sinh \left( {x}^{-1}
+ \right) }}}}}
+$$Cumulative Distribution Function  
+ $$F(x)={\frac {1}{\sqrt {\pi}}\int_{0}^{x}\!{\frac {\sqrt { \left( -1+\sinh
+ \left( {t}^{-1} \right)  \right) ^{-1}}\cosh \left( {t}^{-1} \right) 
+}{{t}^{2} \left| -1+\sinh \left( {t}^{-1} \right)  \right| }{{\rm e}^{
+-1/9\,{\frac { \left( -4+\sinh \left( {t}^{-1} \right)  \right) ^{2}}{
+-1+\sinh \left( {t}^{-1} \right) }}}}}\,{\rm d}t}
+$$ Inverse Cumulative Distribution Function 
+  $$F^{-1} = $$Survivor Function 
+ $$ S(x)=-{\frac {1}{\sqrt {\pi}} \left( -\sqrt {\pi}+\int_{0}^{x}\!{\frac {
+\sqrt { \left( -1+\sinh \left( {t}^{-1} \right)  \right) ^{-1}}\cosh
+ \left( {t}^{-1} \right) }{{t}^{2} \left| -1+\sinh \left( {t}^{-1}
+ \right)  \right| }{{\rm e}^{-1/9\,{\frac { \left( -4+\sinh \left( {t}
+^{-1} \right)  \right) ^{2}}{-1+\sinh \left( {t}^{-1} \right) }}}}}
+\,{\rm d}t \right) }
+$$ Hazard Function 
+ $$ h(x)=-{\frac {\sqrt { \left( -1+\sinh \left( {x}^{-1} \right)  \right) ^{-1
+}}\cosh \left( {x}^{-1} \right) }{{x}^{2} \left| -1+\sinh \left( {x}^{
+-1} \right)  \right| }{{\rm e}^{-1/9\,{\frac { \left( -4+\sinh \left( 
+{x}^{-1} \right)  \right) ^{2}}{-1+\sinh \left( {x}^{-1} \right) }}}}
+ \left( -\sqrt {\pi}+\int_{0}^{x}\!{\frac {\sqrt { \left( -1+\sinh
+ \left( {t}^{-1} \right)  \right) ^{-1}}\cosh \left( {t}^{-1} \right) 
+}{{t}^{2} \left| -1+\sinh \left( {t}^{-1} \right)  \right| }{{\rm e}^{
+-1/9\,{\frac { \left( -4+\sinh \left( {t}^{-1} \right)  \right) ^{2}}{
+-1+\sinh \left( {t}^{-1} \right) }}}}}\,{\rm d}t \right) ^{-1}}
+$$Mean 
+ $$ mu={\frac {1}{\sqrt {\pi}}\int_{0}^{ \left( \ln  \left( 1+\sqrt {2}
+ \right)  \right) ^{-1}}\!{\frac {\cosh \left( {x}^{-1} \right) }{
+ \left( -1+\sinh \left( {x}^{-1} \right)  \right) ^{3/2}x}{{\rm e}^{-1
+/9\,{\frac { \left( \cosh \left( {x}^{-1} \right)  \right) ^{2}-8\,
+\sinh \left( {x}^{-1} \right) +15}{-1+\sinh \left( {x}^{-1} \right) }}
+}}}\,{\rm d}x}
+$$ Variance 
+ $$ sigma^2 = {\frac {1}{{\pi}^{3/2}} \left( - \left( \int_{0}^{ \left( \ln  \left( 
+1+\sqrt {2} \right)  \right) ^{-1}}\!{\frac {\cosh \left( {x}^{-1}
+ \right) }{ \left( -1+\sinh \left( {x}^{-1} \right)  \right) ^{3/2}x}{
+{\rm e}^{-1/9\,{\frac { \left( \cosh \left( {x}^{-1} \right)  \right) 
+^{2}-8\,\sinh \left( {x}^{-1} \right) +15}{-1+\sinh \left( {x}^{-1}
+ \right) }}}}}\,{\rm d}x \right) ^{2}\sqrt {\pi}+\int_{0}^{ \left( 
+\ln  \left( 1+\sqrt {2} \right)  \right) ^{-1}}\!{\frac {\cosh \left( 
+{x}^{-1} \right) }{ \left( -1+\sinh \left( {x}^{-1} \right)  \right) ^
+{3/2}}{{\rm e}^{-1/9\,{\frac { \left( \cosh \left( {x}^{-1} \right) 
+ \right) ^{2}-8\,\sinh \left( {x}^{-1} \right) +15}{-1+\sinh \left( {x
+}^{-1} \right) }}}}}\,{\rm d}x\pi \right) }
+$$Moment Function 
+ $$ m(x) = \int_{0}^{ \left( \ln  \left( 1+\sqrt {2} \right)  \right) ^{-1}}\!{
+\frac {{x}^{r}\sqrt { \left( -1+\sinh \left( {x}^{-1} \right) 
+ \right) ^{-1}}\cosh \left( {x}^{-1} \right) }{\sqrt {\pi}{x}^{2}
+ \left| -1+\sinh \left( {x}^{-1} \right)  \right| }{{\rm e}^{-1/9\,{
+\frac { \left( -4+\sinh \left( {x}^{-1} \right)  \right) ^{2}}{-1+
+\sinh \left( {x}^{-1} \right) }}}}}\,{\rm d}x
+$$ Moment Generating Function 
+ $${\frac {1}{\sqrt {\pi}}\int_{0}^{ \left( \ln  \left( 1+\sqrt {2}
+ \right)  \right) ^{-1}}\!{\frac {\cosh \left( {x}^{-1} \right) }{
+ \left( -1+\sinh \left( {x}^{-1} \right)  \right) ^{3/2}{x}^{2}}{
+{\rm e}^{1/9\,{\frac {9\,tx\sinh \left( {x}^{-1} \right) - \left( 
+\cosh \left( {x}^{-1} \right)  \right) ^{2}-9\,tx+8\,\sinh \left( {x}^
+{-1} \right) -15}{-1+\sinh \left( {x}^{-1} \right) }}}}}\,{\rm d}x}_{{
+1}}
+$$-------------------------------------------------------------------------------------------  \\$$t\mapsto  \left( {\rm csch} \left(t\right) \right) ^{-1}+1
+$$Probability Distribution Function 
+$$  f(x)={\frac {\sqrt { \left( {\rm arccsch} \left( \left( x-1 \right) ^{-1}
+\right) \right) ^{-3}}}{\sqrt {\pi}\sqrt {{x}^{2}-2\,x+2}}{{\rm e}^{-1
+/9\,{\frac { \left( {\rm arccsch} \left( \left( x-1 \right) ^{-1}
+\right)-3 \right) ^{2}}{{\rm arccsch} \left( \left( x-1 \right) ^{-1}
+\right)}}}}}
+$$Cumulative Distribution Function  
+ $$F(x)={\frac {1}{\sqrt {\pi}}\int_{1}^{x}\!{\frac {\sqrt { \left( 
+{\rm arccsch} \left( \left( t-1 \right) ^{-1}\right) \right) ^{-3}}}{
+\sqrt {{t}^{2}-2\,t+2}}{{\rm e}^{-1/9\,{\frac { \left( {\rm arccsch} 
+\left( \left( t-1 \right) ^{-1}\right)-3 \right) ^{2}}{{\rm arccsch} 
+\left( \left( t-1 \right) ^{-1}\right)}}}}}\,{\rm d}t}
+$$ Inverse Cumulative Distribution Function 
+  $$F^{-1} = $$Survivor Function 
+ $$ S(x)=-{\frac {1}{\sqrt {\pi}} \left( -\sqrt {\pi}+\int_{1}^{x}\!{\frac {
+\sqrt { \left( {\rm arccsch} \left( \left( t-1 \right) ^{-1}\right)
+ \right) ^{-3}}}{\sqrt {{t}^{2}-2\,t+2}}{{\rm e}^{-1/9\,{\frac {
+ \left( {\rm arccsch} \left( \left( t-1 \right) ^{-1}\right)-3
+ \right) ^{2}}{{\rm arccsch} \left( \left( t-1 \right) ^{-1}\right)}}}
+}}\,{\rm d}t \right) }
+$$ Hazard Function 
+ $$ h(x)=-{\frac {\sqrt { \left( {\rm arccsch} \left( \left( x-1 \right) ^{-1}
+\right) \right) ^{-3}}}{\sqrt {{x}^{2}-2\,x+2}}{{\rm e}^{-1/9\,{\frac 
+{ \left( {\rm arccsch} \left( \left( x-1 \right) ^{-1}\right)-3
+ \right) ^{2}}{{\rm arccsch} \left( \left( x-1 \right) ^{-1}\right)}}}
+} \left( -\sqrt {\pi}+\int_{1}^{x}\!{\frac {\sqrt { \left( 
+{\rm arccsch} \left( \left( t-1 \right) ^{-1}\right) \right) ^{-3}}}{
+\sqrt {{t}^{2}-2\,t+2}}{{\rm e}^{-1/9\,{\frac { \left( {\rm arccsch} 
+\left( \left( t-1 \right) ^{-1}\right)-3 \right) ^{2}}{{\rm arccsch} 
+\left( \left( t-1 \right) ^{-1}\right)}}}}}\,{\rm d}t \right) ^{-1}}
+$$Mean 
+ $$ mu=\infty 
+$$ Variance 
+ $$ sigma^2 = {\it undefined}
+$$Moment Function 
+ $$ m(x) = \infty 
+$$ Moment Generating Function 
+ $$\int_{1}^{\infty }\!{\frac {1}{ \left( {\rm arccsch} \left( \left( x-1
+ \right) ^{-1}\right) \right) ^{3/2}\sqrt {{x}^{2}-2\,x+2}\sqrt {\pi}}
+{{\rm e}^{-1/9\,{\frac {-9\,tx{\rm arccsch} \left( \left( x-1 \right) 
+^{-1}\right)+ \left( {\rm arccsch} \left( \left( x-1 \right) ^{-1}
+\right) \right) ^{2}-6\,{\rm arccsch} \left( \left( x-1 \right) ^{-1}
+\right)+9}{{\rm arccsch} \left( \left( x-1 \right) ^{-1}\right)}}}}}
+\,{\rm d}x_{{1}}
+$$-------------------------------------------------------------------------------------------  \\$$t\mapsto \tanh \left( {t}^{-1} \right) 
+$$Probability Distribution Function 
+$$  f(x)=-{\frac {\sqrt { \left( {\rm arctanh} \left(x\right) \right) ^{3}}}{
+\sqrt {\pi} \left( {\rm arctanh} \left(x\right) \right) ^{2} \left( {x
+}^{2}-1 \right) }{{\rm e}^{-1/9\,{\frac { \left( -1+3\,{\rm arctanh} 
+\left(x\right) \right) ^{2}}{{\rm arctanh} \left(x\right)}}}}}
+$$Cumulative Distribution Function  
+ $$F(x)=-{\frac {1}{\sqrt {\pi}}\int_{0}^{x}\!{\frac {\sqrt { \left( 
+{\rm arctanh} \left(t\right) \right) ^{3}}}{ \left( {\rm arctanh} 
+\left(t\right) \right) ^{2} \left( {t}^{2}-1 \right) }{{\rm e}^{-1/9\,
+{\frac { \left( -1+3\,{\rm arctanh} \left(t\right) \right) ^{2}}{
+{\rm arctanh} \left(t\right)}}}}}\,{\rm d}t}
+$$ Inverse Cumulative Distribution Function 
+  $$F^{-1} = $$Survivor Function 
+ $$ S(x)={\frac {1}{\sqrt {\pi}} \left( \sqrt {\pi}+\int_{0}^{x}\!{\frac {
+\sqrt { \left( {\rm arctanh} \left(t\right) \right) ^{3}}}{ \left( 
+{\rm arctanh} \left(t\right) \right) ^{2} \left( {t}^{2}-1 \right) }{
+{\rm e}^{-1/9\,{\frac { \left( -1+3\,{\rm arctanh} \left(t\right)
+ \right) ^{2}}{{\rm arctanh} \left(t\right)}}}}}\,{\rm d}t \right) }
+$$ Hazard Function 
+ $$ h(x)=-{\frac {\sqrt { \left( {\rm arctanh} \left(x\right) \right) ^{3}}}{
+ \left( {\rm arctanh} \left(x\right) \right) ^{2} \left( {x}^{2}-1
+ \right) }{{\rm e}^{-1/9\,{\frac { \left( -1+3\,{\rm arctanh} \left(x
+\right) \right) ^{2}}{{\rm arctanh} \left(x\right)}}}} \left( \sqrt {
+\pi}+\int_{0}^{x}\!{\frac {\sqrt { \left( {\rm arctanh} \left(t\right)
+ \right) ^{3}}}{ \left( {\rm arctanh} \left(t\right) \right) ^{2}
+ \left( {t}^{2}-1 \right) }{{\rm e}^{-1/9\,{\frac { \left( -1+3\,
+{\rm arctanh} \left(t\right) \right) ^{2}}{{\rm arctanh} \left(t
+\right)}}}}}\,{\rm d}t \right) ^{-1}}
+$$Mean 
+ $$ mu=-{\frac {1}{\sqrt {\pi}}\int_{0}^{1}\!{\frac {x}{\sqrt {{\rm arctanh} 
+\left(x\right)} \left( {x}^{2}-1 \right) }{{\rm e}^{-1/9\,{\frac {
+ \left( -1+3\,{\rm arctanh} \left(x\right) \right) ^{2}}{{\rm arctanh}
+ \left(x\right)}}}}}\,{\rm d}x}
+$$ Variance 
+ $$ sigma^2 = -{\frac {1}{{\pi}^{3/2}} \left(  \left( \int_{0}^{1}\!{\frac {x}{
+\sqrt {{\rm arctanh} \left(x\right)} \left( {x}^{2}-1 \right) }{
+{\rm e}^{-1/9\,{\frac { \left( -1+3\,{\rm arctanh} \left(x\right)
+ \right) ^{2}}{{\rm arctanh} \left(x\right)}}}}}\,{\rm d}x \right) ^{2
+}\sqrt {\pi}+\int_{0}^{1}\!{\frac {{x}^{2}}{\sqrt {{\rm arctanh} 
+\left(x\right)} \left( {x}^{2}-1 \right) }{{\rm e}^{-1/9\,{\frac {
+ \left( -1+3\,{\rm arctanh} \left(x\right) \right) ^{2}}{{\rm arctanh}
+ \left(x\right)}}}}}\,{\rm d}x\pi \right) }
+$$Moment Function 
+ $$ m(x) = \int_{0}^{1}\!-{\frac {{x}^{r}\sqrt { \left( {\rm arctanh} \left(x
+\right) \right) ^{3}}}{\sqrt {\pi} \left( {\rm arctanh} \left(x\right)
+ \right) ^{2} \left( {x}^{2}-1 \right) }{{\rm e}^{-1/9\,{\frac {
+ \left( -1+3\,{\rm arctanh} \left(x\right) \right) ^{2}}{{\rm arctanh}
+ \left(x\right)}}}}}\,{\rm d}x
+$$ Moment Generating Function 
+ $$-{\frac {1}{\sqrt {\pi}}\int_{0}^{1}\!{\frac {1}{\sqrt {{\rm arctanh} 
+\left(x\right)} \left( {x}^{2}-1 \right) }{{\rm e}^{-1/9\,{\frac {-9\,
+tx{\rm arctanh} \left(x\right)+9\, \left( {\rm arctanh} \left(x\right)
+ \right) ^{2}-6\,{\rm arctanh} \left(x\right)+1}{{\rm arctanh} \left(x
+\right)}}}}}\,{\rm d}x}_{{1}}
+$$-------------------------------------------------------------------------------------------  \\$$t\mapsto {\rm csch} \left({t}^{-1}\right)
+$$Probability Distribution Function 
+$$  f(x)={\frac {\sqrt { \left( {\rm arccsch} \left(x\right) \right) ^{3}}}{
+\sqrt {\pi}\sqrt {{x}^{2}+1} \left( {\rm arccsch} \left(x\right)
+ \right) ^{2} \left| x \right| }{{\rm e}^{-1/9\,{\frac { \left( -1+3\,
+{\rm arccsch} \left(x\right) \right) ^{2}}{{\rm arccsch} \left(x
+\right)}}}}}
+$$Cumulative Distribution Function  
+ $$F(x)={\frac {1}{\sqrt {\pi}}\int_{0}^{x}\!{\frac {\sqrt { \left( 
+{\rm arccsch} \left(t\right) \right) ^{3}}}{\sqrt {{t}^{2}+1} \left( 
+{\rm arccsch} \left(t\right) \right) ^{2} \left| t \right| }{{\rm e}^{
+-1/9\,{\frac { \left( -1+3\,{\rm arccsch} \left(t\right) \right) ^{2}
+}{{\rm arccsch} \left(t\right)}}}}}\,{\rm d}t}
+$$ Inverse Cumulative Distribution Function 
+  $$F^{-1} = $$Survivor Function 
+ $$ S(x)={\frac {1}{\sqrt {\pi}} \left( \sqrt {\pi}-\int_{0}^{x}\!{\frac {
+\sqrt { \left( {\rm arccsch} \left(t\right) \right) ^{3}}}{\sqrt {{t}^
+{2}+1} \left( {\rm arccsch} \left(t\right) \right) ^{2} \left| t
+ \right| }{{\rm e}^{-1/9\,{\frac { \left( -1+3\,{\rm arccsch} \left(t
+\right) \right) ^{2}}{{\rm arccsch} \left(t\right)}}}}}\,{\rm d}t
+ \right) }
+$$ Hazard Function 
+ $$ h(x)=-{\frac {\sqrt { \left( {\rm arccsch} \left(x\right) \right) ^{3}}}{
+\sqrt {{x}^{2}+1} \left( {\rm arccsch} \left(x\right) \right) ^{2}
+ \left| x \right| }{{\rm e}^{-1/9\,{\frac { \left( -1+3\,{\rm arccsch}
+ \left(x\right) \right) ^{2}}{{\rm arccsch} \left(x\right)}}}} \left( 
+-\sqrt {\pi}+\int_{0}^{x}\!{\frac {\sqrt { \left( {\rm arccsch} \left(
+t\right) \right) ^{3}}}{\sqrt {{t}^{2}+1} \left( {\rm arccsch} \left(t
+\right) \right) ^{2} \left| t \right| }{{\rm e}^{-1/9\,{\frac {
+ \left( -1+3\,{\rm arccsch} \left(t\right) \right) ^{2}}{{\rm arccsch}
+ \left(t\right)}}}}}\,{\rm d}t \right) ^{-1}}
+$$-------------------------------------------------------------------------------------------  \\$$t\mapsto {\rm arccsch} \left({t}^{-1}\right)
+$$Probability Distribution Function 
+$$  f(x)={\frac {{\it signum} \left( x \right) \sqrt { \left( \sinh \left( x
+ \right)  \right) ^{-1}}\cosh \left( x \right) }{\sinh \left( x
+ \right) \sqrt {\pi}}{{\rm e}^{-1/9\,{\frac { \left( \sinh \left( x
+ \right) -3 \right) ^{2}}{\sinh \left( x \right) }}}}}
+$$Cumulative Distribution Function  
+ $$F(x)={\it undefined}
+$$ Inverse Cumulative Distribution Function 
+  $$F^{-1} = []
+$$Survivor Function 
+ $$ S(x)={\it undefined}
+$$ Hazard Function 
+ $$ h(x)={\frac {{\it signum} \left( x \right) \sqrt { \left( \sinh \left( x
+ \right)  \right) ^{-1}}\cosh \left( x \right) {\it undefined}}{\sinh
+ \left( x \right) }{{\rm e}^{-1/9\,{\frac { \left( \sinh \left( x
+ \right) -3 \right) ^{2}}{\sinh \left( x \right) }}}}}
+$$Mean 
+ $$ mu=\int_{0}^{\infty }\!{\frac {\cosh \left( x \right) x}{ \left( \sinh
+ \left( x \right)  \right) ^{3/2}\sqrt {\pi}}{{\rm e}^{1/9\,{\frac {-
+ \left( \cosh \left( x \right)  \right) ^{2}+6\,\sinh \left( x
+ \right) -8}{\sinh \left( x \right) }}}}}\,{\rm d}x
+$$ Variance 
+ $$ sigma^2 = \int_{0}^{\infty }\!{\frac {\cosh \left( x \right) {x}^{2}}{ \left( 
+\sinh \left( x \right)  \right) ^{3/2}\sqrt {\pi}}{{\rm e}^{1/9\,{
+\frac {- \left( \cosh \left( x \right)  \right) ^{2}+6\,\sinh \left( x
+ \right) -8}{\sinh \left( x \right) }}}}}\,{\rm d}x- \left( \int_{0}^{
+\infty }\!{\frac {\cosh \left( x \right) x}{ \left( \sinh \left( x
+ \right)  \right) ^{3/2}\sqrt {\pi}}{{\rm e}^{1/9\,{\frac {- \left( 
+\cosh \left( x \right)  \right) ^{2}+6\,\sinh \left( x \right) -8}{
+\sinh \left( x \right) }}}}}\,{\rm d}x \right) ^{2}
+$$Moment Function 
+ $$ m(x) = \int_{0}^{\infty }\!{\frac {{x}^{r}{\it signum} \left( x \right) 
+\sqrt { \left( \sinh \left( x \right)  \right) ^{-1}}\cosh \left( x
+ \right) }{\sinh \left( x \right) \sqrt {\pi}}{{\rm e}^{-1/9\,{\frac {
+ \left( \sinh \left( x \right) -3 \right) ^{2}}{\sinh \left( x
+ \right) }}}}}\,{\rm d}x
+$$ Moment Generating Function 
+ $$\int_{0}^{\infty }\!{\frac {\cosh \left( x \right) }{ \left( \sinh
+ \left( x \right)  \right) ^{3/2}\sqrt {\pi}}{{\rm e}^{1/9\,{\frac {9
+\,tx\sinh \left( x \right) - \left( \cosh \left( x \right)  \right) ^{
+2}+6\,\sinh \left( x \right) -8}{\sinh \left( x \right) }}}}}\,{\rm d}
+x_{{1}}
+$$\end{document}
